@@ -174,26 +174,8 @@ export function StartScreen({ onStart, totalQuestions, customQuestionsCount }: S
             className="w-full sm:w-auto px-8 sm:px-12 py-5 sm:py-6 text-base sm:text-lg font-semibold rounded-xl sm:rounded-2xl gradient-bg hover:opacity-90 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95"
           >
             <Play className="w-5 h-5 mr-2" />
-            {t.startTraining}
+            {language === 'az' ? 'Başla' : 'Старт'}
           </Button>
-        </motion.div>
-
-        {/* Info text */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 0.5 }}
-          className="mt-6 sm:mt-8 space-y-2"
-        >
-          <p className="text-xs sm:text-sm text-slate-500 px-4">
-            {t.questionsInfo}
-          </p>
-          <p className="text-xs text-slate-400">
-            {t.totalInDatabase}: {totalQuestions} {t.questions}
-            {customQuestionsCount > 0 && (
-              <span className="text-indigo-500"> (+{customQuestionsCount} {t.custom})</span>
-            )}
-          </p>
         </motion.div>
       </motion.div>
     </div>

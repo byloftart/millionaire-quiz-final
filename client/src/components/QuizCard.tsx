@@ -12,6 +12,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Question } from '@/data/questions';
 import { cn } from '@/lib/utils';
 import { CheckCircle2, XCircle, Clock, Zap } from 'lucide-react';
+import { useLanguage } from '@/contexts/LanguageContext';
+import { translations } from '@/data/translations';
 
 interface QuizCardProps {
   question: Question;
@@ -27,6 +29,26 @@ interface QuizCardProps {
 
 const answerLabels = ['A', 'B', 'C', 'D'];
 
+// Mapping of category names to translation keys
+const categoryMap: Record<string, keyof typeof translations['ru']['categories']> = {
+  'История': 'history',
+  'География': 'geography',
+  'Наука': 'science',
+  'Искусство': 'art',
+  'Литература': 'literature',
+  'Музыка': 'music',
+  'Кино': 'cinema',
+  'Спорт': 'sport',
+  'Tarix': 'history',
+  'Coğrafiya': 'geography',
+  'Elm': 'science',
+  'İncəsənət': 'art',
+  'Ədəbiyyat': 'literature',
+  'Musiqi': 'music',
+  'Kino': 'cinema',
+  'İdman': 'sport',
+};
+
 export function QuizCard({
   question,
   questionNumber,
@@ -38,6 +60,12 @@ export function QuizCard({
   streak,
   onSelectAnswer,
 }: QuizCardProps) {
+  const { language } = useLanguage();
+  const t = translations[language];
+  
+  // Get translated category name
+  const categoryKey = categoryMap[question.category] || 'history';
+  const translatedCategory = t.categories[categoryKey];
   const timePercentage = (timeRemaining / questionTime) * 100;
   const isTimeWarning = timeRemaining <= 7;
   const isTimeCritical = timeRemaining <= 3;
@@ -57,7 +85,7 @@ export function QuizCard({
             {questionNumber} / {totalQuestions}
           </span>
           <span className="px-2 sm:px-3 py-1 sm:py-1.5 bg-gradient-to-r from-cyan-50 to-indigo-50 rounded-full text-[10px] sm:text-xs font-medium text-indigo-600 border border-indigo-100 truncate max-w-[100px] sm:max-w-none">
-            {question.category}
+            {translatedCategory}
           </span>
         </div>
         
