@@ -5,6 +5,8 @@ import { questionsAz } from '@/data/questions-az';
 // Type assertion for questionsAz to ensure it matches Question[] interface
 declare const questionsAzTyped: Question[];
 
+const AUTO_NEXT_DELAY = 1500; // Мс до автоматического перехода
+
 export type QuizMode = '25' | '50';
 
 export interface QuizState {
@@ -117,6 +119,22 @@ export function useQuiz(customQuestions: Question[] = [], language: 'ru' | 'az' 
     }
   }, []);
 
+  // Автоматический переход к следующему вопросу
+  const autoNextQuestion = useCallback(() => {
+    if (state.currentQuestionIndex >= state.questions.length - 1) {
+      setState(prev => ({ ...prev, isQuizFinished: true }));
+      return;
+    }
+    
+    setState(prev => ({
+      ...prev,
+      currentQuestionIndex: prev.currentQuestionIndex + 1,
+      selectedAnswer: null,
+      isAnswerRevealed: false,
+      timeRemaining: QUESTION_TIME,
+    }));
+  }, [state.currentQuestionIndex, state.questions.length]);
+
   // Начало викторины с выбранным режимом
   const startQuiz = useCallback((mode: QuizMode = '50') => {
     const questionCount = mode === '25' ? 25 : 50;
@@ -168,7 +186,7 @@ export function useQuiz(customQuestions: Question[] = [], language: 'ru' | 'az' 
     }));
   }, [state.isAnswerRevealed, state.selectedAnswer, state.questions, state.currentQuestionIndex, stopTimer]);
 
-  // Переход к следующему вопросу
+  // Переход к следующему вопросу (ручной)
   const nextQuestion = useCallback(() => {
     if (state.currentQuestionIndex >= state.questions.length - 1) {
       setState(prev => ({ ...prev, isQuizFinished: true }));
@@ -189,6 +207,16 @@ export function useQuiz(customQuestions: Question[] = [], language: 'ru' | 'az' 
     stopTimer();
     setState(prev => ({ ...prev, isQuizStarted: false, isQuizFinished: false }));
   }, [stopTimer]);
+
+  // Автоматический переход к следующему вопросу через 1.5 секунд
+  useEffect(() => {
+    if (state.isAnswerRevealed && !state.isQuizFinished) {
+      const autoNextTimer = setTimeout(() => {
+        autoNextQuestion();
+      }, 1500); // 1.5 секунд для отображения результата
+      return () => clearTimeout(autoNextTimer);
+    }
+  }, [state.isAnswerRevealed, state.isQuizFinished, autoNextQuestion]);
 
   // Очистка при размонтировании
   useEffect(() => {
@@ -211,6 +239,7 @@ export function useQuiz(customQuestions: Question[] = [], language: 'ru' | 'az' 
     startQuiz,
     selectAnswer,
     nextQuestion,
+    autoNextQuestion,
     restartQuiz,
   };
 }

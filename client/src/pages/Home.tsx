@@ -17,7 +17,7 @@ import { QuizCard } from '@/components/QuizCard';
 import { ResultScreen } from '@/components/ResultScreen';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
-import { ArrowRight, Brain, LogOut } from 'lucide-react';
+import { ArrowRight, Brain } from 'lucide-react';
 
 export default function Home() {
   const { customQuestions, customQuestionsCount } = useCustomQuestions();
@@ -166,7 +166,7 @@ export default function Home() {
           )}
         </AnimatePresence>
 
-        {/* Next button */}
+        {/* Next button - Hidden with auto-transition */}
         <AnimatePresence>
           {isAnswerRevealed && (
             <motion.div
@@ -176,20 +176,9 @@ export default function Home() {
               transition={{ delay: 0.5, duration: 0.3 }}
               className="flex justify-center mt-6 sm:mt-8 px-3"
             >
-              <Button
-                onClick={nextQuestion}
-                size="lg"
-                className="w-full sm:w-auto px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg font-semibold rounded-xl sm:rounded-2xl gradient-bg hover:opacity-90 transition-all duration-200 shadow-lg hover:shadow-xl sm:hover:scale-105 active:scale-95"
-              >
-                {currentQuestionIndex < totalQuestions - 1 ? (
-                  <>
-                    {language === 'az' ? 'Növbəti sual' : 'Следующий вопрос'}
-                    <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
-                  </>
-                ) : (
-                  language === 'az' ? 'Nəticələri göstər' : 'Показать результаты'
-                )}
-              </Button>
+              <div className="text-center text-sm sm:text-base text-slate-600">
+                {language === 'az' ? 'İdxal vaxt...' : 'Переход...'}
+              </div>
             </motion.div>
           )}
         </AnimatePresence>
