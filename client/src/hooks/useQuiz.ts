@@ -2,6 +2,9 @@ import { useState, useCallback, useEffect, useRef } from 'react';
 import { Question, questions as baseQuestions } from '@/data/questions';
 import { questionsAz } from '@/data/questions-az';
 
+// Type assertion for questionsAz to ensure it matches Question[] interface
+declare const questionsAzTyped: Question[];
+
 export type QuizMode = '25' | '50';
 
 export interface QuizState {
@@ -43,7 +46,7 @@ export function useQuiz(customQuestions: Question[] = [], language: 'ru' | 'az' 
 
   // Объединённая база вопросов (базовые + пользовательские)
   const getAllQuestions = useCallback((): Question[] => {
-    const baseQs = language === 'az' ? questionsAz : baseQuestions;
+    const baseQs = language === 'az' ? (questionsAz as any as Question[]) : baseQuestions;
     return [...baseQs, ...customQuestions];
   }, [customQuestions, language]);
 

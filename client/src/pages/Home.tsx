@@ -17,7 +17,7 @@ import { QuizCard } from '@/components/QuizCard';
 import { ResultScreen } from '@/components/ResultScreen';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
-import { ArrowRight, Brain } from 'lucide-react';
+import { ArrowRight, Brain, LogOut } from 'lucide-react';
 
 export default function Home() {
   const { customQuestions, customQuestionsCount } = useCustomQuestions();
@@ -57,6 +57,10 @@ export default function Home() {
 
   const handleRestart = () => {
     startQuiz(mode);
+  };
+
+  const handleQuitGame = () => {
+    restartQuiz();
   };
 
   // Start screen
@@ -99,8 +103,8 @@ export default function Home() {
       {/* Header */}
       <header className="sticky top-0 z-40 bg-white/80 backdrop-blur-lg border-b border-slate-100">
         <div className="container py-3 sm:py-4">
-          <div className="flex items-center justify-between">
-            {/* Logo */}
+          <div className="flex items-center justify-between mb-2">
+            {/* Logo and Quit Button */}
             <div className="flex items-center gap-2 sm:gap-3">
               <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl gradient-bg flex items-center justify-center">
                 <Brain className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
@@ -113,8 +117,8 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Score */}
-            <div className="flex items-center gap-3 sm:gap-4">
+            {/* Score and Quit Button */}
+            <div className="flex items-center gap-2 sm:gap-4">
               <div className="text-right">
                 <p className="text-[10px] sm:text-xs text-slate-500">{language === 'az' ? 'Xal' : 'Очки'}</p>
                 <p className="text-base sm:text-lg font-bold gradient-text">{score.toLocaleString()}</p>
@@ -124,6 +128,15 @@ export default function Home() {
                 <p className="text-[10px] sm:text-xs text-slate-500">{language === 'az' ? 'Düzgün' : 'Правильных'}</p>
                 <p className="text-base sm:text-lg font-bold text-emerald-600">{correctAnswers}/{currentQuestionIndex + (isAnswerRevealed ? 1 : 0)}</p>
               </div>
+              <div className="h-8 sm:h-10 w-px bg-slate-200" />
+              <Button
+                onClick={handleQuitGame}
+                variant="ghost"
+                size="sm"
+                className="text-xs sm:text-sm text-slate-500 hover:text-slate-700 hover:bg-slate-100"
+              >
+                {language === 'az' ? 'Çıx' : 'Выход'}
+              </Button>
             </div>
           </div>
 
