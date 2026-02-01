@@ -83,11 +83,9 @@ export function StartScreen({ onStart, totalQuestions, customQuestionsCount }: S
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.5 }}
-          className="text-2xl sm:text-4xl md:text-5xl font-display font-bold mb-3 sm:mb-4 px-2"
+          className="text-3xl sm:text-5xl md:text-6xl font-display font-bold mb-6 sm:mb-8 px-2"
         >
-          <span className="gradient-text">{t.appTitle.split('?')[0]}</span>
-          <br />
-          <span className="gradient-text text-xl sm:text-3xl md:text-4xl">{t.appTitle}</span>
+          <span className="gradient-text">{t.appTitle}</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -95,7 +93,7 @@ export function StartScreen({ onStart, totalQuestions, customQuestionsCount }: S
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.5 }}
-          className="text-sm sm:text-lg text-slate-600 mb-6 sm:mb-8 max-w-md mx-auto px-4"
+          className="text-base sm:text-xl md:text-2xl text-slate-700 font-medium mb-8 sm:mb-10 max-w-lg mx-auto px-4"
         >
           {t.appSubtitle}
         </motion.p>
