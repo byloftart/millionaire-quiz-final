@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { Question, questions as baseQuestions } from '@/data/questions';
+import { questionsAz } from '@/data/questions-az';
 
 export type QuizMode = '25' | '50';
 
@@ -21,7 +22,7 @@ export interface QuizState {
 
 const QUESTION_TIME = 20; // секунд на вопрос (изменено с 30 на 20)
 
-export function useQuiz(customQuestions: Question[] = []) {
+export function useQuiz(customQuestions: Question[] = [], language: 'ru' | 'az' = 'ru') {
   const [state, setState] = useState<QuizState>({
     questions: [],
     currentQuestionIndex: 0,
@@ -42,8 +43,9 @@ export function useQuiz(customQuestions: Question[] = []) {
 
   // Объединённая база вопросов (базовые + пользовательские)
   const getAllQuestions = useCallback((): Question[] => {
-    return [...baseQuestions, ...customQuestions];
-  }, [customQuestions]);
+    const baseQs = language === 'az' ? questionsAz : baseQuestions;
+    return [...baseQs, ...customQuestions];
+  }, [customQuestions, language]);
 
   // Получение сбалансированного набора вопросов с учётом пользовательских
   const getQuestions = useCallback((count: number): Question[] => {

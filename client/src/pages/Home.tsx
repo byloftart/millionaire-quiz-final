@@ -11,6 +11,7 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { useQuiz, QuizMode } from '@/hooks/useQuiz';
 import { useCustomQuestions } from '@/hooks/useCustomQuestions';
+import { useLanguage } from '@/contexts/LanguageContext';
 import { StartScreen } from '@/components/StartScreen';
 import { QuizCard } from '@/components/QuizCard';
 import { ResultScreen } from '@/components/ResultScreen';
@@ -20,6 +21,7 @@ import { ArrowRight, Brain } from 'lucide-react';
 
 export default function Home() {
   const { customQuestions, customQuestionsCount } = useCustomQuestions();
+  const { language } = useLanguage();
   
   const {
     isQuizStarted,
@@ -43,7 +45,7 @@ export default function Home() {
     selectAnswer,
     nextQuestion,
     restartQuiz,
-  } = useQuiz(customQuestions);
+  } = useQuiz(customQuestions, language);
 
   const handleStart = (selectedMode: QuizMode) => {
     startQuiz(selectedMode);
@@ -105,21 +107,21 @@ export default function Home() {
               </div>
               <div className="hidden sm:block">
                 <h1 className="font-display font-bold text-slate-800 leading-tight text-sm sm:text-base">
-                  Тренажёр
+                  {language === 'az' ? 'Trenajor' : 'Тренажёр'}
                 </h1>
-                <p className="text-[10px] sm:text-xs text-slate-500">Кто хочет стать миллионером?</p>
+                <p className="text-[10px] sm:text-xs text-slate-500">{language === 'az' ? '«Kim milyonçu olmaq istəyir?»' : 'Кто хочет стать миллионером?'}</p>
               </div>
             </div>
 
             {/* Score */}
             <div className="flex items-center gap-3 sm:gap-4">
               <div className="text-right">
-                <p className="text-[10px] sm:text-xs text-slate-500">Очки</p>
+                <p className="text-[10px] sm:text-xs text-slate-500">{language === 'az' ? 'Xal' : 'Очки'}</p>
                 <p className="text-base sm:text-lg font-bold gradient-text">{score.toLocaleString()}</p>
               </div>
               <div className="h-8 sm:h-10 w-px bg-slate-200" />
               <div className="text-right">
-                <p className="text-[10px] sm:text-xs text-slate-500">Правильных</p>
+                <p className="text-[10px] sm:text-xs text-slate-500">{language === 'az' ? 'Düzgün' : 'Правильных'}</p>
                 <p className="text-base sm:text-lg font-bold text-emerald-600">{correctAnswers}/{currentQuestionIndex + (isAnswerRevealed ? 1 : 0)}</p>
               </div>
             </div>
@@ -168,11 +170,11 @@ export default function Home() {
               >
                 {currentQuestionIndex < totalQuestions - 1 ? (
                   <>
-                    Следующий вопрос
+                    {language === 'az' ? 'Növbəti sual' : 'Следующий вопрос'}
                     <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
                   </>
                 ) : (
-                  'Показать результаты'
+                  language === 'az' ? 'Nəticələri göstər' : 'Показать результаты'
                 )}
               </Button>
             </motion.div>
@@ -182,7 +184,7 @@ export default function Home() {
 
       {/* Footer hint */}
       <footer className="py-3 sm:py-4 text-center text-xs sm:text-sm text-slate-400 relative z-10">
-        <p>Выбери правильный ответ до истечения времени</p>
+        <p>{language === 'az' ? 'Vaxt bitməmiş düzgün cavabı seçin' : 'Выбери правильный ответ до истечения времени'}</p>
       </footer>
     </div>
   );
