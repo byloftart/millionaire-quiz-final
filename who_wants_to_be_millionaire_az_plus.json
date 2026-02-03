@@ -1,0 +1,6317 @@
+[
+  {
+    "id": 1,
+    "question": "İkinci Dünya müharibəsi hansı ildə başladı?",
+    "options": [
+      "1937",
+      "1938",
+      "1939",
+      "1940"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 2,
+    "question": "ABŞ-ın ilk prezidenti kim idi?",
+    "options": [
+      "Tomas Cefferson",
+      "Corc Vaşinqton",
+      "Avraam Linkoln",
+      "Bencamin Franklin"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 3,
+    "question": "Berlin divarı hansı ildə dağıdıldı?",
+    "options": [
+      "1987",
+      "1988",
+      "1989",
+      "1990"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 4,
+    "question": "İnsanı ilk dəfə kosmosa göndərən ölkə hansıdır?",
+    "options": [
+      "ABŞ",
+      "SSRİ",
+      "Çin",
+      "Almaniya"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 5,
+    "question": "Birinci Dünya müharibəsi hansı ildə başa çatdı?",
+    "options": [
+      "1916",
+      "1917",
+      "1918",
+      "1919"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 6,
+    "question": "Rusiyanın son imperatoru kim idi?",
+    "options": [
+      "Aleksandr III",
+      "Nikolay II",
+      "Pavel I",
+      "Aleksandr II"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 7,
+    "question": "Oktyabr inqilabı hansı ildə baş verdi?",
+    "options": [
+      "1905",
+      "1914",
+      "1917",
+      "1918"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 8,
+    "question": "Qədim Misirin paytaxtı hansı şəhər idi?",
+    "options": [
+      "Qahirə",
+      "İsgəndəriyyə",
+      "Memfis",
+      "Luksor"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 9,
+    "question": "1492-ci ildə Amerikanı kim kəşf etdi?",
+    "options": [
+      "Vasko da Qama",
+      "Xristofor Kolumb",
+      "Ameriqo Vespuççi",
+      "Fernan Maqellan"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 10,
+    "question": "Roma şəhəri hansı ildə salınıb?",
+    "options": [
+      "e.ə. 653",
+      "e.ə. 753",
+      "e.ə. 853",
+      "e.ə. 553"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 11,
+    "question": "Ay səthinə ilk ayaq basan insan kim idi?",
+    "options": [
+      "Bazz Oldrin",
+      "Nil Armstronq",
+      "Yuri Qaqarin",
+      "Alan Şepard"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 12,
+    "question": "SSRİ hansı ildə dağıldı?",
+    "options": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 13,
+    "question": "Gizadakı Böyük piramidanı hansı firon tikdirib?",
+    "options": [
+      "Tutankhamon",
+      "II Ramzes",
+      "Xeops",
+      "Amenhotep"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 14,
+    "question": "ABŞ-ın Müstəqillik Bəyannaməsi hansı ildə qəbul edilib?",
+    "options": [
+      "1774",
+      "1775",
+      "1776",
+      "1777"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 15,
+    "question": "Fransız İnqilabının lideri kim idi?",
+    "options": [
+      "Napoleon",
+      "Robespyer",
+      "XVI Lüdovik",
+      "Marat"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 16,
+    "question": "Böyük Vətən müharibəsi hansı ildə başladı?",
+    "options": [
+      "1939",
+      "1940",
+      "1941",
+      "1942"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 17,
+    "question": "Bizans imperiyasının paytaxtı hansı şəhər idi?",
+    "options": [
+      "Roma",
+      "Afina",
+      "Konstantinopol",
+      "İsgəndəriyyə"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 18,
+    "question": "«Kapital» əsərini kim yazıb?",
+    "options": [
+      "Adam Smit",
+      "Karl Marks",
+      "Fridrix Engels",
+      "Con Keyns"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 19,
+    "question": "Kulikovo döyüşü hansı ildə baş verib?",
+    "options": [
+      "1360",
+      "1370",
+      "1380",
+      "1390"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 20,
+    "question": "Monqol imperiyasının banisi kim olub?",
+    "options": [
+      "Qubilay xan",
+      "Çingiz xan",
+      "Tamerlan",
+      "Batı"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 21,
+    "question": "Borodino döyüşü hansı ildə baş verib?",
+    "options": [
+      "1810",
+      "1811",
+      "1812",
+      "1813"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 22,
+    "question": "Hansı müharibə 100 il davam edib?",
+    "options": [
+      "Qırmızı və Ağ qızılgüllər müharibəsi",
+      "Yüzillik müharibə",
+      "Otuzillik müharibə",
+      "Yeddillik müharibə"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 23,
+    "question": "Birləşmiş Almaniyanın ilk kansleri kim idi?",
+    "options": [
+      "Bismark",
+      "Hitler",
+      "I Vilhelm",
+      "Adenauer"
+    ],
+    "correctAnswer": 0,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 24,
+    "question": "Vaterloo döyüşü hansı ildə olub?",
+    "options": [
+      "1813",
+      "1814",
+      "1815",
+      "1816"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 25,
+    "question": "Rusiyada təhkimli kəndliləri azad edən çar kim idi?",
+    "options": [
+      "Nikolay I",
+      "Aleksandr II",
+      "Aleksandr III",
+      "Nikolay II"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 26,
+    "question": "Yuli Sezar hansı ildə öldürülüb?",
+    "options": [
+      "e.ə. 46",
+      "e.ə. 45",
+      "e.ə. 44",
+      "e.ə. 43"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 27,
+    "question": "Misirin son fironu kim idi?",
+    "options": [
+      "Nefertiti",
+      "Kleopatra",
+      "Hatşepsut",
+      "Tutankhamon"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 28,
+    "question": "Reformasiya hansı ildə başladı?",
+    "options": [
+      "1507",
+      "1517",
+      "1527",
+      "1537"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 29,
+    "question": "Vezuv vulkanının püskürməsi nəticəsində hansı şəhər məhv olub?",
+    "options": [
+      "Roma",
+      "Neapol",
+      "Pompey",
+      "Florensiya"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 30,
+    "question": "Romanın ilk imperatoru kim idi?",
+    "options": [
+      "Yuli Sezar",
+      "Oktavian Avqust",
+      "Neron",
+      "Kaligula"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 31,
+    "question": "Poltava döyüşü hansı ildə olub?",
+    "options": [
+      "1707",
+      "1708",
+      "1709",
+      "1710"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 32,
+    "question": "Sankt-Peterburqu kim salıb?",
+    "options": [
+      "İvan Qroznı",
+      "I Pyotr",
+      "II Yekaterina",
+      "Pavel I"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 33,
+    "question": "Böyük Fransız İnqilabı hansı ildə baş verib?",
+    "options": [
+      "1787",
+      "1788",
+      "1789",
+      "1790"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 34,
+    "question": "Birinci Dünya müharibəsini hansı müqavilə yekunlaşdırdı?",
+    "options": [
+      "Brest sülhü",
+      "Versal müqaviləsi",
+      "Paris sülhü",
+      "Vestfal sülhü"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 35,
+    "question": "Bütün Rusiyanın ilk çarı kim idi?",
+    "options": [
+      "İvan III",
+      "İvan IV",
+      "Vasili III",
+      "Boris Qodunov"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 36,
+    "question": "Buz döyüşü hansı ildə olub?",
+    "options": [
+      "1240",
+      "1242",
+      "1244",
+      "1246"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 37,
+    "question": "Hansı imperiya ən uzun müddət mövcud olub?",
+    "options": [
+      "Roma imperiyası",
+      "Bizans imperiyası",
+      "Osmanlı imperiyası",
+      "Britaniya imperiyası"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 38,
+    "question": "Hindistanın müstəqillik hərəkatının lideri kim idi?",
+    "options": [
+      "Cəvahirləl Nehru",
+      "Mahatma Qandi",
+      "İndira Qandi",
+      "Raciv Qandi"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 39,
+    "question": "BMT hansı ildə yaradılıb?",
+    "options": [
+      "1943",
+      "1944",
+      "1945",
+      "1946"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 40,
+    "question": "İnklərin paytaxtı hansı şəhər idi?",
+    "options": [
+      "Maçu Pikçu",
+      "Kusko",
+      "Lima",
+      "Kito"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 41,
+    "question": "Avropada kitab çapını (mətbəəni) kim ixtira edib?",
+    "options": [
+      "Leonardo da Vinçi",
+      "İohann Qutenberq",
+      "Qalileo Qaliley",
+      "Nikolay Kopernik"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 42,
+    "question": "Koreya müharibəsi hansı ildə başladı?",
+    "options": [
+      "1948",
+      "1949",
+      "1950",
+      "1951"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 43,
+    "question": "Tac-Mahalı hansı imperator tikdirib?",
+    "options": [
+      "Əkbər",
+      "Şah Cahan",
+      "Aurangzeb",
+      "Babur"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 44,
+    "question": "Marafon döyüşü hansı ildə baş verib?",
+    "options": [
+      "e.ə. 510",
+      "e.ə. 500",
+      "e.ə. 490",
+      "e.ə. 480"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 45,
+    "question": "Fransanın ilk prezidenti kim olub?",
+    "options": [
+      "Napoleon III",
+      "Lui-Napoleon Bonapart",
+      "Şarl de Qoll",
+      "Adolf Tyer"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 46,
+    "question": "Böyük Azadlıqlar Xartiyası (Magna Carta) hansı ildə imzalanıb?",
+    "options": [
+      "1205",
+      "1210",
+      "1215",
+      "1220"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 47,
+    "question": "Maçu Pikçunu hansı xalq inşa edib?",
+    "options": [
+      "Mayyalar",
+      "Asteklər",
+      "İnklər",
+      "Olmeklər"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 48,
+    "question": "Fransanın son kralı kim olub?",
+    "options": [
+      "XVI Lüdovik",
+      "XVIII Lüdovik",
+      "X Karl",
+      "Lui-Filip I"
+    ],
+    "correctAnswer": 3,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 49,
+    "question": "Soyuq müharibə hansı ildə başladı?",
+    "options": [
+      "1945",
+      "1946",
+      "1947",
+      "1948"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 50,
+    "question": "Müqəddəs Roma imperiyasının paytaxtı hansı şəhər idi?",
+    "options": [
+      "Roma",
+      "Vyana",
+      "Berlin",
+      "Praqa"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 51,
+    "question": "Böyük Britaniyanın ilk baş naziri kim olub?",
+    "options": [
+      "Uinston Çörçill",
+      "Robert Uolpol",
+      "Uilyam Pitt",
+      "Bencamin Dizraeli"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 52,
+    "question": "Neva döyüşü hansı ildə olub?",
+    "options": [
+      "1238",
+      "1240",
+      "1242",
+      "1244"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 53,
+    "question": "Romada xristianlığı qəbul edən imperator kim idi?",
+    "options": [
+      "Neron",
+      "Konstantin",
+      "Diokletian",
+      "Trayan"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 54,
+    "question": "Kiyev hansı ildə salınıb?",
+    "options": [
+      "482",
+      "582",
+      "682",
+      "782"
+    ],
+    "correctAnswer": 0,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 55,
+    "question": "Kuba inqilabının lideri kim idi?",
+    "options": [
+      "Çe Gevara",
+      "Fidel Kastro",
+      "Raul Kastro",
+      "Kamilo Sienfueqos"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 56,
+    "question": "Fermopil döyüşü hansı ildə baş verib?",
+    "options": [
+      "e.ə. 490",
+      "e.ə. 485",
+      "e.ə. 480",
+      "e.ə. 475"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 57,
+    "question": "Babilin Asma bağlarını hansı çar tikdirib?",
+    "options": [
+      "Hammurapi",
+      "Navuxodonosor II",
+      "Böyük Kir",
+      "Dariy I"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 58,
+    "question": "Moskva hansı ildə salınıb?",
+    "options": [
+      "1047",
+      "1097",
+      "1147",
+      "1197"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 59,
+    "question": "Türkiyənin ilk prezidenti kim idi?",
+    "options": [
+      "İsmet İnönü",
+      "Mustafa Kamal Atatürk",
+      "Cəlal Bayar",
+      "Adnan Menderes"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 60,
+    "question": "Rusiyanın xristianlığı qəbul etməsi hansı ildə baş verib?",
+    "options": [
+      "968",
+      "978",
+      "988",
+      "998"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 61,
+    "question": "Qızıl Ordanın paytaxtı hansı şəhər idi?",
+    "options": [
+      "Kazan",
+      "Saray",
+      "Həştərxan",
+      "Bulqar"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 62,
+    "question": "Çinin son imperatoru kim idi?",
+    "options": [
+      "Sısi",
+      "Pu Yi",
+      "Quansi",
+      "Süantun"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 63,
+    "question": "Varfolomey gecəsi hansı ildə olub?",
+    "options": [
+      "1562",
+      "1572",
+      "1582",
+      "1592"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 64,
+    "question": "Karfageni hansı xalq salıb?",
+    "options": [
+      "Yunanlar",
+      "Finikiyalılar",
+      "Romalılar",
+      "Misirlilər"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 65,
+    "question": "Hastinqs döyüşü hansı ildə olub?",
+    "options": [
+      "1056",
+      "1066",
+      "1076",
+      "1086"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 66,
+    "question": "Yaponiyanın ilk imperatoru kim idi?",
+    "options": [
+      "Hirohito",
+      "Meydzi",
+      "Cimmu",
+      "Taysyo"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 67,
+    "question": "Vestfal sülhü hansı ildə imzalanıb?",
+    "options": [
+      "1638",
+      "1648",
+      "1658",
+      "1668"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 68,
+    "question": "Assuriyanın paytaxtı hansı şəhər idi?",
+    "options": [
+      "Babil",
+      "Nineviya",
+      "Ur",
+      "Uruk"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 69,
+    "question": "Misirin ilk prezidenti kim olub?",
+    "options": [
+      "Hüsnü Mübarək",
+      "Ənvər Sədat",
+      "Camal Əbdül Nasir",
+      "Məhəmməd Nəgib"
+    ],
+    "correctAnswer": 3,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 70,
+    "question": "Osmanlı imperiyası hansı ildə qurulub?",
+    "options": [
+      "1279",
+      "1289",
+      "1299",
+      "1309"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 71,
+    "question": "Azərbaycan SSRİ-dən hansı ildə müstəqillik qazandı?",
+    "options": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 72,
+    "question": "1918-ci ildə müsəlman dünyasında ilk demokratik respublika olan ölkə hansıdır?",
+    "options": [
+      "Türkiyə",
+      "Azərbaycan",
+      "İran",
+      "Misir"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 73,
+    "question": "Müstəqil Azərbaycanın ilk prezidenti kim idi?",
+    "options": [
+      "Heydər Əliyev",
+      "Ayaz Mütəllibov",
+      "Əbülfəz Elçibəy",
+      "İlham Əliyev"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 74,
+    "question": "Azərbaycan Xalq Cümhuriyyəti hansı ildə yaradılıb?",
+    "options": [
+      "1916",
+      "1917",
+      "1918",
+      "1919"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 75,
+    "question": "Şirvanşahların paytaxtı hansı şəhər idi?",
+    "options": [
+      "Bakı",
+      "Şamaxı",
+      "Gəncə",
+      "Naxçıvan"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 76,
+    "question": "Azərbaycan SSRİ-nin tərkibinə hansı ildə daxil oldu?",
+    "options": [
+      "1918",
+      "1920",
+      "1922",
+      "1924"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 77,
+    "question": "Səfəvilər dövlətinin banisi kim idi?",
+    "options": [
+      "Şah Abbas I",
+      "Şah İsmayıl I",
+      "Nadir şah",
+      "Şah Təhmasib I"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 78,
+    "question": "Atropatena dövləti hansı əsrdə mövcud olub?",
+    "options": [
+      "e.ə. I əsr",
+      "e.ə. IV əsr",
+      "e.ə. VII əsr",
+      "e.ə. X əsr"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 79,
+    "question": "Azərbaycanın Rusiya ilə İran arasında bölünməsini hansı müqavilə rəsmiləşdirdi?",
+    "options": [
+      "Gülüstan müqaviləsi",
+      "Türkmənçay müqaviləsi",
+      "Tilzit müqaviləsi",
+      "Paris müqaviləsi"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 80,
+    "question": "Türkmənçay müqaviləsi hansı ildə imzalanıb?",
+    "options": [
+      "1826",
+      "1827",
+      "1828",
+      "1829"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 81,
+    "question": "Bakı xanlığının son xanı kim idi?",
+    "options": [
+      "Hüseynqulu xan",
+      "Mirzə Məhəmməd xan",
+      "Fətəli xan",
+      "Mehdiqulu xan"
+    ],
+    "correctAnswer": 0,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 82,
+    "question": "Azərbaycanda qadınlar seçki hüququnu hansı ildə əldə etdilər?",
+    "options": [
+      "1917",
+      "1918",
+      "1919",
+      "1920"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 83,
+    "question": "Qafqaz Albaniyasının paytaxtı hansı şəhər idi?",
+    "options": [
+      "Bakı",
+      "Qəbələ",
+      "Şəki",
+      "Bərdə"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 84,
+    "question": "Bakı Dövlət Universiteti hansı ildə təsis edilib?",
+    "options": [
+      "1917",
+      "1918",
+      "1919",
+      "1920"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 85,
+    "question": "Azərbaycan Xalq Cümhuriyyəti Parlamentinin ilk sədri kim idi?",
+    "options": [
+      "Məmməd Əmin Rəsulzadə",
+      "Əlimərdan bəy Topçubaşov",
+      "Fətəli xan Xoyski",
+      "Nəsib bəy Yusifbəyli"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 86,
+    "question": "Bakıda Yanvar hadisələri (Qanlı Yanvar) hansı ildə baş verdi?",
+    "options": [
+      "1988",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 87,
+    "question": "III–VII əsrlərdə Azərbaycanın ərazisində hansı dövlət mövcud olub?",
+    "options": [
+      "Midiya",
+      "Qafqaz Albaniyası",
+      "Atropatena",
+      "Şirvan"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 88,
+    "question": "Gülüstan müqaviləsi hansı ildə imzalanıb?",
+    "options": [
+      "1811",
+      "1812",
+      "1813",
+      "1814"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 89,
+    "question": "Azərbaycan operasının banisi kimdir?",
+    "options": [
+      "Üzeyir Hacıbəyli",
+      "Müslüm Maqomayev",
+      "Qara Qarayev",
+      "Fikrət Əmirov"
+    ],
+    "correctAnswer": 0,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 90,
+    "question": "Azərbaycan BMT-yə hansı ildə üzv oldu?",
+    "options": [
+      "1991",
+      "1992",
+      "1993",
+      "1994"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 91,
+    "question": "XVIII əsrdə Azərbaycanın böyük hissəsini birləşdirən xan kim olub?",
+    "options": [
+      "Pənahəli xan",
+      "Fətəli xan Qubalı",
+      "İbrahimxəlil xan",
+      "Hacı Çələbi xan"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 92,
+    "question": "Azərbaycan SSR hansı ildə yaradıldı?",
+    "options": [
+      "1918",
+      "1920",
+      "1922",
+      "1924"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 93,
+    "question": "Azərbaycan Xalq Cümhuriyyətinin ilk baş naziri kim idi?",
+    "options": [
+      "Məmməd Əmin Rəsulzadə",
+      "Fətəli xan Xoyski",
+      "Nəsib bəy Yusifbəyli",
+      "Əlimərdan bəy Topçubaşov"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 94,
+    "question": "Gəncə şəhəri hansı ildə salınıb?",
+    "options": [
+      "659",
+      "759",
+      "859",
+      "959"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 95,
+    "question": "1918-ci il 28 mayda Bakıda hansı hadisə baş verdi?",
+    "options": [
+      "AXC-nin elan olunması",
+      "SSRİ-yə daxilolma",
+      "Yanvar hadisələri",
+      "Müqavilənin imzalanması"
+    ],
+    "correctAnswer": 0,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 96,
+    "question": "Azərbaycanın milli lideri kim idi?",
+    "options": [
+      "Məmməd Əmin Rəsulzadə",
+      "Heydər Əliyev",
+      "Əbülfəz Elçibəy",
+      "Ayaz Mütəllibov"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 97,
+    "question": "Bakı Azərbaycanın paytaxtı hansı ildə oldu?",
+    "options": [
+      "1918",
+      "1920",
+      "1922",
+      "1924"
+    ],
+    "correctAnswer": 0,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 98,
+    "question": "Şirvanda hansı sülalə hökmranlıq edib?",
+    "options": [
+      "Səfəvilər",
+      "Şirvanşahlar",
+      "Qacarlar",
+      "Əfşarlar"
+    ],
+    "correctAnswer": 1,
+    "category": "История",
+    "difficulty": "medium",
+    "categoryAz": "Tarix",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 99,
+    "question": "Qarabağ hansı ildə azad edildi?",
+    "options": [
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "correctAnswer": 2,
+    "category": "История",
+    "difficulty": "easy",
+    "categoryAz": "Tarix",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 100,
+    "question": "Azərbaycandan olan ilk kosmonavt kimdir?",
+    "options": [
+      "Musa Manarov",
+      "Raşid Süleymanov",
+      "Toğrul İsmayılov",
+      "Azərbaycanın kosmonavtı olmayıb"
+    ],
+    "correctAnswer": 0,
+    "category": "История",
+    "difficulty": "hard",
+    "categoryAz": "Tarix",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 101,
+    "question": "Dünyanın ən uzun çayı hansıdır?",
+    "options": [
+      "Amazon",
+      "Nil",
+      "Yanszı",
+      "Missisipi"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 102,
+    "question": "Sahəsinə görə ən böyük ölkə hansıdır?",
+    "options": [
+      "Kanada",
+      "Çin",
+      "ABŞ",
+      "Rusiya"
+    ],
+    "correctAnswer": 3,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 103,
+    "question": "Ən böyük okean hansıdır?",
+    "options": [
+      "Atlantik okeanı",
+      "Hind okeanı",
+      "Sakit okean",
+      "Şimal Buzlu okeanı"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 104,
+    "question": "Dünyanın ən hündür dağı hansıdır?",
+    "options": [
+      "K2",
+      "Kançencanqa",
+      "Everest",
+      "Makalu"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 105,
+    "question": "Dünyanın ən böyük səhrası hansıdır?",
+    "options": [
+      "Qobi",
+      "Kalahari",
+      "Sahara",
+      "Ərəbistan səhrası"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 106,
+    "question": "Avstraliyanın paytaxtı hansıdır?",
+    "options": [
+      "Sidney",
+      "Melburn",
+      "Kanberra",
+      "Brisben"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 107,
+    "question": "Dünyanın ən dərin gölü hansıdır?",
+    "options": [
+      "Xəzər dənizi",
+      "Baykal",
+      "Tanganika",
+      "Viktoriya"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 108,
+    "question": "Yer kürəsində neçə qitə var?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 109,
+    "question": "Əhalisi ən çox olan ölkə hansıdır?",
+    "options": [
+      "Hindistan",
+      "ABŞ",
+      "Çin",
+      "İndoneziya"
+    ],
+    "correctAnswer": 0,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 110,
+    "question": "Kanadanın paytaxtı hansıdır?",
+    "options": [
+      "Toronto",
+      "Vankuver",
+      "Monreal",
+      "Ottava"
+    ],
+    "correctAnswer": 3,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 111,
+    "question": "Avropa ilə Asiyanı ayıran boğaz hansıdır?",
+    "options": [
+      "Cəbəllütariq boğazı",
+      "Bosfor boğazı",
+      "La-Manş",
+      "Berinq boğazı"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 112,
+    "question": "Parisdən axan çay hansıdır?",
+    "options": [
+      "Reyn",
+      "Sena",
+      "Luara",
+      "Rona"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 113,
+    "question": "«Günəşin doğduğu ölkə» adlanan ölkə hansıdır?",
+    "options": [
+      "Çin",
+      "Koreya",
+      "Yaponiya",
+      "Vyetnam"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 114,
+    "question": "Braziliyanın paytaxtı hansıdır?",
+    "options": [
+      "Rio-de-Janeyro",
+      "San-Paulu",
+      "Braziliya",
+      "Salvador"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 115,
+    "question": "Dünyanın ən hündür şəlaləsi hansıdır?",
+    "options": [
+      "Niaqara",
+      "Viktoriya",
+      "Anxel",
+      "İquasu"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 116,
+    "question": "Ən çox ölkə ilə sərhədi olan ölkə hansıdır?",
+    "options": [
+      "Rusiya",
+      "Çin",
+      "Braziliya",
+      "Almaniya"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "hard",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 117,
+    "question": "Dünyanın ən böyük adası hansıdır?",
+    "options": [
+      "Madaqaskar",
+      "Borneo",
+      "Qrenlandiya",
+      "Yeni Qvineya"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 118,
+    "question": "Türkiyənin paytaxtı hansıdır?",
+    "options": [
+      "İstanbul",
+      "Ankara",
+      "İzmir",
+      "Antalya"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 119,
+    "question": "Dünyanın ən duzlu dənizi hansıdır?",
+    "options": [
+      "Qırmızı dəniz",
+      "Ölü dəniz",
+      "Aralıq dənizi",
+      "Qara dəniz"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 120,
+    "question": "Avropanın ən uzun çayı hansıdır?",
+    "options": [
+      "Dunay",
+      "Dnepr",
+      "Volqa",
+      "Reyn"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 121,
+    "question": "Misirin paytaxtı hansıdır?",
+    "options": [
+      "İsgəndəriyyə",
+      "Qahirə",
+      "Luksor",
+      "Əsuan"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 122,
+    "question": "Ən kiçik materik hansıdır?",
+    "options": [
+      "Avropa",
+      "Avstraliya",
+      "Antarktida",
+      "Cənubi Amerika"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 123,
+    "question": "Bütöv bir qitəni tutan ölkə hansıdır?",
+    "options": [
+      "Rusiya",
+      "Kanada",
+      "Avstraliya",
+      "Braziliya"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 124,
+    "question": "Hindistanın paytaxtı hansıdır?",
+    "options": [
+      "Mumbay",
+      "Kalkutta",
+      "Yeni Dehli",
+      "Banqalor"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 125,
+    "question": "İki qitədə yerləşən şəhər hansıdır?",
+    "options": [
+      "Qahirə",
+      "İstanbul",
+      "Moskva",
+      "Dubay"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 126,
+    "question": "«Çəkmə» formasında olan ölkə hansıdır?",
+    "options": [
+      "İspaniya",
+      "Yunanıstan",
+      "İtaliya",
+      "Portuqaliya"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 127,
+    "question": "Argentinanın paytaxtı hansıdır?",
+    "options": [
+      "Santyaqo",
+      "Buenos-Ayres",
+      "Montevideo",
+      "Lima"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 128,
+    "question": "«Əbədi şəhər» adlandırılan şəhər hansıdır?",
+    "options": [
+      "Afina",
+      "Roma",
+      "Qüds",
+      "Qahirə"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 129,
+    "question": "Ən çox qəhvə istehsal edən ölkə hansıdır?",
+    "options": [
+      "Kolumbiya",
+      "Vyetnam",
+      "Braziliya",
+      "Efiopiya"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 130,
+    "question": "Cənubi Koreyanın paytaxtı hansıdır?",
+    "options": [
+      "Pusan",
+      "Seul",
+      "İnçxon",
+      "Tequ"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 131,
+    "question": "Atlantik və Sakit okeanları birləşdirən kanal hansıdır?",
+    "options": [
+      "Süveyş kanalı",
+      "Panama kanalı",
+      "Kiel kanalı",
+      "Korinf kanalı"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 132,
+    "question": "«Min göl ölkəsi» kimi tanınan ölkə hansıdır?",
+    "options": [
+      "İsveç",
+      "Norveç",
+      "Finlandiya",
+      "Kanada"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 133,
+    "question": "İsveçrənin paytaxtı hansıdır?",
+    "options": [
+      "Sürix",
+      "Cenevrə",
+      "Bern",
+      "Bazel"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 134,
+    "question": "Avropanın ən hündür dağı hansıdır?",
+    "options": [
+      "Monblan",
+      "Matterhorn",
+      "Elbrus",
+      "Monte-Roza"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 135,
+    "question": "İki ölkənin paytaxtı hesab edilən şəhər hansıdır?",
+    "options": [
+      "Roma",
+      "Vatikan",
+      "Qüds",
+      "Nikosiya"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "hard",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 136,
+    "question": "Meksikanın paytaxtı hansıdır?",
+    "options": [
+      "Kankun",
+      "Qvadalaxara",
+      "Mexiko",
+      "Monterrey"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 137,
+    "question": "Londondan axan çay hansıdır?",
+    "options": [
+      "Sena",
+      "Temza",
+      "Reyn",
+      "Dunay"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 138,
+    "question": "Əhali sıxlığı ən yüksək olan ölkə hansıdır?",
+    "options": [
+      "Banqladeş",
+      "Monako",
+      "Sinqapur",
+      "Malta"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "hard",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 139,
+    "question": "Norveçin paytaxtı hansıdır?",
+    "options": [
+      "Stokholm",
+      "Helsinki",
+      "Oslo",
+      "Kopenhagen"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 140,
+    "question": "Tamamilə İtaliya ilə əhatə olunan dövlət hansıdır?",
+    "options": [
+      "Vatikan",
+      "San-Marino",
+      "Monako",
+      "Andorra"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 141,
+    "question": "«Səmaaltı» adlandırılan ölkə hansıdır?",
+    "options": [
+      "Yaponiya",
+      "Koreya",
+      "Çin",
+      "Monqolustan"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 142,
+    "question": "Polşanın paytaxtı hansıdır?",
+    "options": [
+      "Krakov",
+      "Varşava",
+      "Qdansk",
+      "Vrotslav"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 143,
+    "question": "«Şimal Venesiyası» adlandırılan şəhər hansıdır?",
+    "options": [
+      "Amsterdam",
+      "Sankt-Peterburq",
+      "Stokholm",
+      "Brüqqe"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 144,
+    "question": "Ən çox neft ixrac edən ölkə hansıdır?",
+    "options": [
+      "Rusiya",
+      "ABŞ",
+      "Səudiyyə Ərəbistanı",
+      "İraq"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 145,
+    "question": "Çexiyanın paytaxtı hansıdır?",
+    "options": [
+      "Brno",
+      "Praqa",
+      "Ostrava",
+      "Plzen"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 146,
+    "question": "Dünyanın ən böyük yarımadası hansıdır?",
+    "options": [
+      "Hindustan yarımadası",
+      "Ərəbistan yarımadası",
+      "Skandinaviya yarımadası",
+      "Balkan yarımadası"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 147,
+    "question": "Ən uzun sahil xəttinə malik ölkə hansıdır?",
+    "options": [
+      "Rusiya",
+      "İndoneziya",
+      "Kanada",
+      "Avstraliya"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "hard",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 148,
+    "question": "Macarıstanın paytaxtı hansıdır?",
+    "options": [
+      "Vyana",
+      "Budapeşt",
+      "Praqa",
+      "Bratislava"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 149,
+    "question": "«Mələklər şəhəri» adlandırılan şəhər hansıdır?",
+    "options": [
+      "Nyu-York",
+      "Los-Anceles",
+      "San-Fransisko",
+      "Çikaqo"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 150,
+    "question": "Hansı ölkənin dənizə çıxışı yoxdur?",
+    "options": [
+      "Boliviya",
+      "Paraqvay",
+      "Monqolustan",
+      "Hamısı"
+    ],
+    "correctAnswer": 3,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 151,
+    "question": "Yunanıstanın paytaxtı hansıdır?",
+    "options": [
+      "Saloniki",
+      "Afina",
+      "Patra",
+      "İraklion"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 152,
+    "question": "Pompeyi hansı vulkan məhv edib?",
+    "options": [
+      "Etna",
+      "Vezuv",
+      "Stromboli",
+      "Vulkano"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 153,
+    "question": "«Ağcaqayın yarpağı ölkəsi» adlandırılan ölkə hansıdır?",
+    "options": [
+      "ABŞ",
+      "Kanada",
+      "Avstraliya",
+      "Yeni Zelandiya"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 154,
+    "question": "Avstriyanın paytaxtı hansıdır?",
+    "options": [
+      "Zaltsburq",
+      "Vyana",
+      "Qraz",
+      "İnsbruk"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 155,
+    "question": "Sahəsinə görə ən böyük göl hansıdır?",
+    "options": [
+      "Baykal",
+      "Viktoriya",
+      "Xəzər dənizi",
+      "Yuxarı gölü"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 156,
+    "question": "Ən çox saat qurşağı olan ölkə hansıdır?",
+    "options": [
+      "Rusiya",
+      "ABŞ",
+      "Kanada",
+      "Fransa"
+    ],
+    "correctAnswer": 3,
+    "category": "География",
+    "difficulty": "hard",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 157,
+    "question": "Portuqaliyanın paytaxtı hansıdır?",
+    "options": [
+      "Porto",
+      "Lissabon",
+      "Faru",
+      "Koimbra"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 158,
+    "question": "«Adriatikin incisi» adlandırılan şəhər hansıdır?",
+    "options": [
+      "Venesiya",
+      "Dubrovnik",
+      "Split",
+      "Triyest"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "hard",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 159,
+    "question": "Ən çox düyü istehsal edən ölkə hansıdır?",
+    "options": [
+      "Hindistan",
+      "Çin",
+      "İndoneziya",
+      "Vyetnam"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 160,
+    "question": "İrlandiyanın paytaxtı hansıdır?",
+    "options": [
+      "Belfast",
+      "Dublin",
+      "Kork",
+      "Qolvey"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 161,
+    "question": "«Sevgi şəhəri» adlandırılan şəhər hansıdır?",
+    "options": [
+      "Roma",
+      "Venesiya",
+      "Paris",
+      "Barselona"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 162,
+    "question": "Adambaşına düşən ÜDM-i ən yüksək olan ölkə hansıdır?",
+    "options": [
+      "ABŞ",
+      "İsveçrə",
+      "Lüksemburq",
+      "Norveç"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "hard",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 163,
+    "question": "Finlandiyanın paytaxtı hansıdır?",
+    "options": [
+      "Oslo",
+      "Stokholm",
+      "Helsinki",
+      "Tallin"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 164,
+    "question": "Dünyanın ən dar boğazı hansıdır?",
+    "options": [
+      "Bosfor boğazı",
+      "Malakka boğazı",
+      "Cəbəllütariq boğazı",
+      "Berinq boğazı"
+    ],
+    "correctAnswer": 0,
+    "category": "География",
+    "difficulty": "hard",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 165,
+    "question": "«Fiyordlar ölkəsi» adlandırılan ölkə hansıdır?",
+    "options": [
+      "İsveç",
+      "Norveç",
+      "İslandiya",
+      "Danimarka"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 166,
+    "question": "Belçikanın paytaxtı hansıdır?",
+    "options": [
+      "Antverpen",
+      "Brüssel",
+      "Gent",
+      "Lyej"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 167,
+    "question": "«Böyük alma» adlandırılan şəhər hansıdır?",
+    "options": [
+      "Los-Anceles",
+      "Çikaqo",
+      "Nyu-York",
+      "Boston"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 168,
+    "question": "Quruda ən alçaq nöqtəyə malik ölkə hansıdır?",
+    "options": [
+      "Niderland",
+      "İsrail",
+      "İordaniya",
+      "Cibuti"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "hard",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 169,
+    "question": "Danimarkanın paytaxtı hansıdır?",
+    "options": [
+      "Oslo",
+      "Stokholm",
+      "Kopenhagen",
+      "Helsinki"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 170,
+    "question": "«Dumanlı Albion» adlandırılan şəhər hansıdır?",
+    "options": [
+      "Paris",
+      "London",
+      "Amsterdam",
+      "Edinburq"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 171,
+    "question": "Azərbaycanın sahillərini hansı dəniz yuyur?",
+    "options": [
+      "Qara dəniz",
+      "Xəzər dənizi",
+      "Aralıq dənizi",
+      "Aral dənizi"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 172,
+    "question": "Azərbaycanın ən hündür dağı hansıdır?",
+    "options": [
+      "Şahdağ",
+      "Bazardüzü",
+      "Tufandağ",
+      "Qızılboğaz"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 173,
+    "question": "Azərbaycan hansı ölkələrlə sərhəddir?",
+    "options": [
+      "Rusiya, Gürcüstan, Ermənistan, İran, Türkiyə",
+      "Rusiya, Gürcüstan, Ermənistan, İran",
+      "Rusiya, Gürcüstan, İran, Türkiyə",
+      "Gürcüstan, Ermənistan, İran"
+    ],
+    "correctAnswer": 0,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 174,
+    "question": "Azərbaycanda ən uzun çay hansıdır?",
+    "options": [
+      "Araz",
+      "Kür",
+      "Samur",
+      "Gəncəçay"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 175,
+    "question": "Azərbaycanın paytaxtı hansı şəhərdir?",
+    "options": [
+      "Gəncə",
+      "Sumqayıt",
+      "Bakı",
+      "Mingəçevir"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 176,
+    "question": "Azərbaycanda yerləşən yarımada hansıdır?",
+    "options": [
+      "Krım yarımadası",
+      "Abşeron yarımadası",
+      "Taman yarımadası",
+      "Balkan yarımadası"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 177,
+    "question": "Azərbaycanda ən böyük göl hansıdır?",
+    "options": [
+      "Göygöl",
+      "Sarısu",
+      "Mingəçevir su anbarı",
+      "Acınohur"
+    ],
+    "correctAnswer": 2,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 178,
+    "question": "Azərbaycanda palçıq vulkanları əsasən hansı bölgədə yerləşir?",
+    "options": [
+      "Naxçıvan",
+      "Abşeron",
+      "Lənkəran",
+      "Şəki"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 179,
+    "question": "Azərbaycanda əhalisinə görə ikinci ən böyük şəhər hansıdır?",
+    "options": [
+      "Sumqayıt",
+      "Gəncə",
+      "Mingəçevir",
+      "Lənkəran"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 180,
+    "question": "Azərbaycanda hansı milli park yerləşir?",
+    "options": [
+      "Yelloustoun",
+      "Göygöl",
+      "Serengeti",
+      "Krüger"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 181,
+    "question": "Azərbaycanda üstünlük təşkil edən təbii zona hansıdır?",
+    "options": [
+      "Tayqa",
+      "Subtropiklər",
+      "Tundra",
+      "Səhra"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 182,
+    "question": "Azərbaycanda «Küləklər şəhəri» adlandırılan şəhər hansıdır?",
+    "options": [
+      "Gəncə",
+      "Bakı",
+      "Şəki",
+      "Quba"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 183,
+    "question": "Azərbaycanın tərkibinə daxil olan muxtar respublika hansıdır?",
+    "options": [
+      "Acariya",
+      "Naxçıvan",
+      "Abxaziya",
+      "Cənubi Osetiya"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 184,
+    "question": "Azərbaycandan keçən dağ silsiləsi hansıdır?",
+    "options": [
+      "Alplar",
+      "Qafqaz",
+      "Himalaylar",
+      "Karpatlar"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 185,
+    "question": "Lənkəran ovalığında hansı iqlim üstünlük təşkil edir?",
+    "options": [
+      "Arktik",
+      "Rütubətli subtropik",
+      "Səhra",
+      "Mülayim"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 186,
+    "question": "Azərbaycanın böyük hissəsini tutan düzənlik hansıdır?",
+    "options": [
+      "Kür-Araz ovalığı",
+      "Xəzəryanı düzənlik",
+      "Kolxida düzənliyi",
+      "Mesopotamiya düzənliyi"
+    ],
+    "correctAnswer": 0,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 187,
+    "question": "Xalçaları ilə tanınan Azərbaycan şəhəri hansıdır?",
+    "options": [
+      "Bakı",
+      "Quba",
+      "Gəncə",
+      "Şamaxı"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 188,
+    "question": "Azərbaycanda neçə iqtisadi rayon var?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "hard",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 189,
+    "question": "Dəniz səviyyəsindən aşağıda yerləşən Azərbaycan şəhəri hansıdır?",
+    "options": [
+      "Gəncə",
+      "Bakı",
+      "Şəki",
+      "Quba"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 190,
+    "question": "Azərbaycanda ən böyük su anbarı hansıdır?",
+    "options": [
+      "Mingəçevir",
+      "Şəmkir",
+      "Yenikənd",
+      "Araz"
+    ],
+    "correctAnswer": 0,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 191,
+    "question": "Almaları ilə məşhur olan Azərbaycan rayonu hansıdır?",
+    "options": [
+      "Quba",
+      "Şəki",
+      "Lənkəran",
+      "Zaqatala"
+    ],
+    "correctAnswer": 0,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 192,
+    "question": "Şahdağ Milli Parkının simvolu olan dağ hansıdır?",
+    "options": [
+      "Bazardüzü",
+      "Şahdağ",
+      "Tufandağ",
+      "Babadağ"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 193,
+    "question": "«Sənətkarlar şəhəri» adlandırılan Azərbaycan şəhəri hansıdır?",
+    "options": [
+      "Bakı",
+      "Şəki",
+      "Gəncə",
+      "Naxçıvan"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 194,
+    "question": "Azərbaycanla İran arasında sərhəd yaradan çay hansıdır?",
+    "options": [
+      "Kür",
+      "Araz",
+      "Samur",
+      "Gəncəçay"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 195,
+    "question": "Çay plantasiyaları ilə tanınan Azərbaycan rayonu hansıdır?",
+    "options": [
+      "Quba",
+      "Lənkəran",
+      "Şəki",
+      "Gəncə"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 196,
+    "question": "Azərbaycanda ən gözəl dərələrdən biri sayılan dərə hansıdır?",
+    "options": [
+      "Göygöl",
+      "Lahıc",
+      "Xınalıq",
+      "İlisu"
+    ],
+    "correctAnswer": 3,
+    "category": "География",
+    "difficulty": "hard",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 197,
+    "question": "Azərbaycanın neft sənayesinin mərkəzi olan şəhər hansıdır?",
+    "options": [
+      "Gəncə",
+      "Bakı",
+      "Sumqayıt",
+      "Şirvan"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "easy",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 198,
+    "question": "Azərbaycanda 2350 m yüksəklikdə yerləşən kənd hansıdır?",
+    "options": [
+      "Lahıc",
+      "Xınalıq",
+      "İlisu",
+      "Laza"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "hard",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 199,
+    "question": "Xəzər dənizinin hansı körfəzi Azərbaycan sahillərində yerləşir?",
+    "options": [
+      "Qara-Boğaz-Göl",
+      "Bakı körfəzi",
+      "Kizlyar körfəzi",
+      "Manqışlaq körfəzi"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 200,
+    "question": "Narları ilə məşhur olan Azərbaycan rayonu hansıdır?",
+    "options": [
+      "Quba",
+      "Göyçay",
+      "Şəki",
+      "Zaqatala"
+    ],
+    "correctAnswer": 1,
+    "category": "География",
+    "difficulty": "medium",
+    "categoryAz": "Coğrafiya",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 201,
+    "question": "O simvolu ilə hansı kimyəvi element işarə olunur?",
+    "options": [
+      "Ozon",
+      "Oksigen",
+      "Osmium",
+      "Qalay"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 202,
+    "question": "Günəş sistemində neçə planet var?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 203,
+    "question": "Günəşə ən yaxın planet hansıdır?",
+    "options": [
+      "Venera",
+      "Merkuri",
+      "Mars",
+      "Yer"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 204,
+    "question": "Botanika nəyi tədqiq edir?",
+    "options": [
+      "Heyvanları",
+      "Bitkiləri",
+      "Mineralları",
+      "Ulduzları"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 205,
+    "question": "Yer atmosferinin böyük hissəsini hansı qaz təşkil edir?",
+    "options": [
+      "Oksigen",
+      "Karbon dioksid",
+      "Azot",
+      "Hidrogen"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 206,
+    "question": "Ümumdünya cazibə qanununu kim kəşf edib?",
+    "options": [
+      "Eynşteyn",
+      "Nyuton",
+      "Qaliley",
+      "Kopernik"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 207,
+    "question": "İnsanda insulini hansı orqan ifraz edir?",
+    "options": [
+      "Qaraciyər",
+      "Böyrəklər",
+      "Mədəaltı vəzi",
+      "Mədə"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 208,
+    "question": "Mənfi yüklü hissəcik hansıdır?",
+    "options": [
+      "Proton",
+      "Neytron",
+      "Elektron",
+      "Pozitron"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 209,
+    "question": "Entomologiya nəyi tədqiq edir?",
+    "options": [
+      "Quşları",
+      "Balıqları",
+      "Həşəratları",
+      "Məməliləri"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 210,
+    "question": "Günəş şüalarının təsiri ilə hansı vitamin sintez olunur?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correctAnswer": 3,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 211,
+    "question": "«Qırmızı planet» kimi tanınan planet hansıdır?",
+    "options": [
+      "Venera",
+      "Mars",
+      "Yupiter",
+      "Saturn"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 212,
+    "question": "Yetkin insanın bədənində neçə sümük var?",
+    "options": [
+      "186",
+      "206",
+      "226",
+      "246"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 213,
+    "question": "Fe simvolu ilə hansı element işarə olunur?",
+    "options": [
+      "Flüor",
+      "Fransium",
+      "Dəmir",
+      "Fosfor"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 214,
+    "question": "H2O nədir?",
+    "options": [
+      "Hidrogen peroksid",
+      "Su",
+      "Duz turşusu",
+      "Kükürd turşusu"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 215,
+    "question": "Nisbilik nəzəriyyəsini hansı alim yaradıb?",
+    "options": [
+      "Nyuton",
+      "Bor",
+      "Eynşteyn",
+      "Plank"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 216,
+    "question": "Qanın təmizlənməsinə əsasən hansı orqan cavabdehdir?",
+    "options": [
+      "Ürək",
+      "Ağciyərlər",
+      "Böyrəklər",
+      "Qaraciyər"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 217,
+    "question": "Hansı planetin halqaları var?",
+    "options": [
+      "Mars",
+      "Yupiter",
+      "Saturn",
+      "Hamısı"
+    ],
+    "correctAnswer": 3,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 218,
+    "question": "Ornitologiya nəyi tədqiq edir?",
+    "options": [
+      "Balıqları",
+      "Quşları",
+      "Həşəratları",
+      "Sürünənləri"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 219,
+    "question": "Ən yüngül metal hansıdır?",
+    "options": [
+      "Alüminium",
+      "Maqnezium",
+      "Litium",
+      "Natrium"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 220,
+    "question": "İnsanda neçə xromosom var?",
+    "options": [
+      "23",
+      "46",
+      "48",
+      "52"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 221,
+    "question": "Bitkilər fotosintez zamanı hansı qazı ifraz edir?",
+    "options": [
+      "Karbon dioksid",
+      "Azot",
+      "Oksigen",
+      "Hidrogen"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 222,
+    "question": "Yerə ən yaxın ulduz hansıdır?",
+    "options": [
+      "Alfa Sentavr",
+      "Sirius",
+      "Günəş",
+      "Qütb ulduzu"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 223,
+    "question": "İxtiologiya nəyi tədqiq edir?",
+    "options": [
+      "Quşları",
+      "Balıqları",
+      "Həşəratları",
+      "Sürünənləri"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 224,
+    "question": "Au simvolu ilə hansı element işarə olunur?",
+    "options": [
+      "Gümüş",
+      "Alüminium",
+      "Qızıl",
+      "Arqon"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 225,
+    "question": "Mədədə hansı turşu olur?",
+    "options": [
+      "Kükürd turşusu",
+      "Duz turşusu",
+      "Azot turşusu",
+      "Sirkə turşusu"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 226,
+    "question": "Penisillini hansı alim kəşf edib?",
+    "options": [
+      "Paster",
+      "Kox",
+      "Fleminq",
+      "Cenner"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 227,
+    "question": "Günəş sistemində ən böyük planet hansıdır?",
+    "options": [
+      "Saturn",
+      "Yupiter",
+      "Uran",
+      "Neptun"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 228,
+    "question": "Paleontologiya nəyi tədqiq edir?",
+    "options": [
+      "Qədim dilləri",
+      "Fosil orqanizmləri",
+      "Qədim sivilizasiyaları",
+      "Mineralları"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 229,
+    "question": "Ag simvolu ilə hansı element işarə olunur?",
+    "options": [
+      "Qızıl",
+      "Gümüş",
+      "Arqon",
+      "Alüminium"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 230,
+    "question": "Yetkin insanın orqanizmində neçə litr qan olur?",
+    "options": [
+      "3-4",
+      "5-6",
+      "7-8",
+      "9-10"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 231,
+    "question": "Radioaktivliyi hansı alim kəşf edib?",
+    "options": [
+      "Kyuri",
+      "Bekkerel",
+      "Rezerford",
+      "Rentgen"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 232,
+    "question": "Genetik məlumatı hansı molekul daşıyır?",
+    "options": [
+      "RNT",
+      "DNT",
+      "ATF",
+      "Zülal"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 233,
+    "question": "Geologiya nəyi tədqiq edir?",
+    "options": [
+      "Havanı",
+      "Yer kürəsini",
+      "Okeanları",
+      "Kosmosu"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 234,
+    "question": "Na simvolu ilə hansı element işarə olunur?",
+    "options": [
+      "Azot",
+      "Natrium",
+      "Nikel",
+      "Neon"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 235,
+    "question": "Suyun qaynama temperaturu neçədir?",
+    "options": [
+      "90°C",
+      "100°C",
+      "110°C",
+      "120°C"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 236,
+    "question": "Periodik cədvəli hansı alim tərtib edib?",
+    "options": [
+      "Lomonosov",
+      "Mendeleyev",
+      "Butlerov",
+      "Zinin"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 237,
+    "question": "Yerin peyki hansıdır?",
+    "options": [
+      "Fobos",
+      "Deymos",
+      "Ay",
+      "Titan"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 238,
+    "question": "Mikrobiologiya nəyi tədqiq edir?",
+    "options": [
+      "Mikroorqanizmləri",
+      "Mikroskopları",
+      "Mikroçipləri",
+      "Mikroelementləri"
+    ],
+    "correctAnswer": 0,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 239,
+    "question": "K simvolu ilə hansı element işarə olunur?",
+    "options": [
+      "Kalsium",
+      "Kalium",
+      "Kobalt",
+      "Kripton"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 240,
+    "question": "Yetkin insanın neçə dişi olur?",
+    "options": [
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 241,
+    "question": "Elektromaqnit induksiyasını hansı alim kəşf edib?",
+    "options": [
+      "Amper",
+      "Faradey",
+      "Om",
+      "Volta"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 242,
+    "question": "«Yan üstə» fırlanan planet hansıdır?",
+    "options": [
+      "Neptun",
+      "Uran",
+      "Pluton",
+      "Venera"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 243,
+    "question": "Sitologiya nəyi tədqiq edir?",
+    "options": [
+      "Toxumaları",
+      "Hüceyrələri",
+      "Orqanları",
+      "Sistemləri"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 244,
+    "question": "Ca simvolu ilə hansı element işarə olunur?",
+    "options": [
+      "Karbon",
+      "Kalsium",
+      "Kadmium",
+      "Sezium"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 245,
+    "question": "İşığın sürəti nə qədərdir?",
+    "options": [
+      "200 000 km/s",
+      "300 000 km/s",
+      "400 000 km/s",
+      "500 000 km/s"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 246,
+    "question": "Rentgen şüalarını hansı alim kəşf edib?",
+    "options": [
+      "Kyuri",
+      "Bekkerel",
+      "Rentgen",
+      "Rezerford"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 247,
+    "question": "Böyük Qırmızı Ləkəyə malik planet hansıdır?",
+    "options": [
+      "Mars",
+      "Yupiter",
+      "Saturn",
+      "Neptun"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 248,
+    "question": "Genetika nəyi öyrənir?",
+    "options": [
+      "Genləri",
+      "Generalları",
+      "Generatorları",
+      "Həndəsəni"
+    ],
+    "correctAnswer": 0,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 249,
+    "question": "Pb simvolu ilə hansı element işarə olunur?",
+    "options": [
+      "Platin",
+      "Plutonium",
+      "Qurğuşun",
+      "Paladiy"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 250,
+    "question": "İnsan ürəyində neçə kamera var?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 251,
+    "question": "Planetlərin hərəkət qanunlarını hansı alim formalaşdırıb?",
+    "options": [
+      "Kopernik",
+      "Kepler",
+      "Qaliley",
+      "Nyuton"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 252,
+    "question": "Elektrik cərəyanının şiddətinin ölçü vahidi hansıdır?",
+    "options": [
+      "Volt",
+      "Amper",
+      "Om",
+      "Vatt"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 253,
+    "question": "Ekologiya nəyi tədqiq edir?",
+    "options": [
+      "İqtisadiyyatı",
+      "Orqanizmlərin mühitlə qarşılıqlı əlaqəsini",
+      "Əks-sədanı",
+      "İmtahanları"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 254,
+    "question": "Hg simvolu ilə hansı element işarə olunur?",
+    "options": [
+      "Hidrogen",
+      "Helium",
+      "Civə",
+      "Hafnium"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 255,
+    "question": "Mütləq sıfır temperaturu neçədir?",
+    "options": [
+      "-173°C",
+      "-273°C",
+      "-373°C",
+      "-473°C"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 256,
+    "question": "DNT-nin quruluşunu hansı alimlər müəyyən ediblər?",
+    "options": [
+      "Mendel",
+      "Uotson və Krik",
+      "Darvin",
+      "Paster"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 257,
+    "question": "İşıq lampalarında hansı qazdan istifadə olunur?",
+    "options": [
+      "Oksigen",
+      "Azot",
+      "Arqon",
+      "Helium"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 258,
+    "question": "Astronomiya nəyi tədqiq edir?",
+    "options": [
+      "Astrologiyanı",
+      "Səma cisimlərini",
+      "Asteroidləri",
+      "Atmosferi"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 259,
+    "question": "Cu simvolu ilə hansı element işarə olunur?",
+    "options": [
+      "Kobalt",
+      "Mis",
+      "Kyuri",
+      "Sezium"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 260,
+    "question": "İnsanda neçə cüt qabırğa var?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 261,
+    "question": "Elektronu hansı alim kəşf edib?",
+    "options": [
+      "Rezerford",
+      "Tomson",
+      "Bor",
+      "Çedvik"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 262,
+    "question": "Gərginliyin ölçü vahidi hansıdır?",
+    "options": [
+      "Amper",
+      "Volt",
+      "Om",
+      "Vatt"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 263,
+    "question": "Fiziologiya nəyi tədqiq edir?",
+    "options": [
+      "Fizikanı",
+      "Orqanizmin funksiyalarını",
+      "Fəlsəfəni",
+      "Fitnesi"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 264,
+    "question": "Sn simvolu ilə hansı element işarə olunur?",
+    "options": [
+      "Kükürd",
+      "Qalay",
+      "Stronsium",
+      "Selen"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 265,
+    "question": "Mətbəx duzunun formulu hansıdır?",
+    "options": [
+      "NaCl",
+      "KCl",
+      "CaCl2",
+      "MgCl2"
+    ],
+    "correctAnswer": 0,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 266,
+    "question": "Neytronu hansı alim kəşf edib?",
+    "options": [
+      "Rezerford",
+      "Tomson",
+      "Bor",
+      "Çedvik"
+    ],
+    "correctAnswer": 3,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 267,
+    "question": "Hansı qaz havadan yüngüldür?",
+    "options": [
+      "Oksigen",
+      "Karbon dioksid",
+      "Helium",
+      "Xlor"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 268,
+    "question": "Anatomiya nəyi tədqiq edir?",
+    "options": [
+      "Orqanizmin quruluşunu",
+      "Orqanizmin funksiyalarını",
+      "Xəstəlikləri",
+      "Dərmanları"
+    ],
+    "correctAnswer": 0,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 269,
+    "question": "Zn simvolu ilə hansı element işarə olunur?",
+    "options": [
+      "Sirkonium",
+      "Sink",
+      "Qızıl",
+      "Azot"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 270,
+    "question": "İnsan onurğa sütununda neçə fəqərə olur?",
+    "options": [
+      "23-25",
+      "28-30",
+      "33-34",
+      "38-40"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 271,
+    "question": "Azərbaycan oftalmologiyasının banisi kim sayılır?",
+    "options": [
+      "Zərifə Əliyeva",
+      "Mirzə Kazımbəy",
+      "Yusif Məmmədəliyev",
+      "Azad Mirzəcanzadə"
+    ],
+    "correctAnswer": 0,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 272,
+    "question": "Neft kimyası sahəsində işləri ilə tanınan azərbaycanlı alim kimdir?",
+    "options": [
+      "Lütfi Zadə",
+      "Yusif Məmmədəliyev",
+      "Azad Mirzəcanzadə",
+      "Kəlbəli Xanbudaqov"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 273,
+    "question": "Qeyri-səlis çoxluqlar nəzəriyyəsini kim yaradıb?",
+    "options": [
+      "Yusif Məmmədəliyev",
+      "Lütfi Zadə",
+      "Azad Mirzəcanzadə",
+      "Musa Əliyev"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 274,
+    "question": "Azərbaycanın əsas təbii sərvəti hansıdır?",
+    "options": [
+      "Qızıl",
+      "Neft",
+      "Kömür",
+      "Almazlar"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 275,
+    "question": "Azərbaycanda sənaye üsulu ilə ilk neft hansı ildə çıxarılıb?",
+    "options": [
+      "1846",
+      "1848",
+      "1850",
+      "1852"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 276,
+    "question": "Neft yataqlarının lay mexanikası məktəbinin banisi olan azərbaycanlı alim kimdir?",
+    "options": [
+      "Yusif Məmmədəliyev",
+      "Azad Mirzəcanzadə",
+      "Lütfi Zadə",
+      "Musa Əliyev"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 277,
+    "question": "Azərbaycanda əsas elmi qurum hansıdır?",
+    "options": [
+      "Azərbaycan Milli Elmlər Akademiyası",
+      "Bakı Dövlət Universiteti",
+      "Azərbaycan Dövlət Neft Akademiyası",
+      "Azərbaycan Tibb Universiteti"
+    ],
+    "correctAnswer": 0,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 278,
+    "question": "Azərbaycanda dünyanın ən böyük palçıq vulkanı hansıdır?",
+    "options": [
+      "Lökbatan",
+      "Bozdağ",
+      "Torağay",
+      "Keyrəki"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 279,
+    "question": "Daşkəsəndə hansı mineral çıxarılır?",
+    "options": [
+      "Qızıl",
+      "Dəmir filizi",
+      "Mis",
+      "Alüminium"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 280,
+    "question": "Azərbaycanda «Əsrin müqaviləsi» adlandırılan neft yatağı hansıdır?",
+    "options": [
+      "Neft Daşları",
+      "Azəri-Çıraq-Günəşli",
+      "Şahdəniz",
+      "Bibiheybət"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 281,
+    "question": "Azərbaycanın alüminium sənayesinin mərkəzi olan şəhər hansıdır?",
+    "options": [
+      "Bakı",
+      "Gəncə",
+      "Sumqayıt",
+      "Mingəçevir"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 282,
+    "question": "Azərbaycanda ən böyük qaz yatağı hansıdır?",
+    "options": [
+      "Azəri",
+      "Çıraq",
+      "Şahdəniz",
+      "Günəşli"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 283,
+    "question": "Aviasiya yanacağının yaradılması üzərində çalışmış azərbaycanlı alim kimdir?",
+    "options": [
+      "Lütfi Zadə",
+      "Yusif Məmmədəliyev",
+      "Azad Mirzəcanzadə",
+      "Musa Əliyev"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 284,
+    "question": "Azərbaycanda neçə palçıq vulkanı var?",
+    "options": [
+      "Təxminən 100",
+      "Təxminən 200",
+      "Təxminən 350",
+      "Təxminən 500"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 285,
+    "question": "Azərbaycanda hansı enerji növü fəal inkişaf etdirilir?",
+    "options": [
+      "Atom enerjisi",
+      "Külək enerjisi",
+      "Geotermal enerji",
+      "Hamısı"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 286,
+    "question": "Azərbaycanda neftin tədqiqi ilə hansı institut məşğul olur?",
+    "options": [
+      "SOCAR",
+      "Azərbaycan Milli Elmlər Akademiyası",
+      "Neft və Qaz İnstitutu",
+      "Bakı Dövlət Universiteti"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 287,
+    "question": "Azərbaycanda çıxarılan nadir metal hansıdır?",
+    "options": [
+      "Qızıl",
+      "Molibden",
+      "Platin",
+      "Uran"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 288,
+    "question": "Azərbaycanda hansı rəsədxana yerləşir?",
+    "options": [
+      "Pulkovo rəsədxanası",
+      "Şamaxı rəsədxanası",
+      "Krım rəsədxanası",
+      "Byurakan rəsədxanası"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 289,
+    "question": "Geologiya sahəsində işləri ilə tanınan azərbaycanlı alim kimdir?",
+    "options": [
+      "Musa Əliyev",
+      "Lütfi Zadə",
+      "Yusif Məmmədəliyev",
+      "Azad Mirzəcanzadə"
+    ],
+    "correctAnswer": 0,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 290,
+    "question": "Ən böyük qapalı su hövzəsi olan dəniz hansıdır?",
+    "options": [
+      "Aral dənizi",
+      "Xəzər dənizi",
+      "Ölü dəniz",
+      "Balxaş"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "easy",
+    "categoryAz": "Elm",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 291,
+    "question": "Azərbaycanda ən qədim universitet hansıdır?",
+    "options": [
+      "Azərbaycan Dövlət Neft Akademiyası",
+      "Bakı Dövlət Universiteti",
+      "Azərbaycan Tibb Universiteti",
+      "Azərbaycan Texniki Universiteti"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 292,
+    "question": "Azərbaycanda hansı kimyəvi element kəşf edilib?",
+    "options": [
+      "Belə element yoxdur",
+      "Bakuit",
+      "Azəriy",
+      "Xəzər"
+    ],
+    "correctAnswer": 0,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 293,
+    "question": "Abşeronda hansı iqlim tipi üstünlük təşkil edir?",
+    "options": [
+      "Subtropik",
+      "Yarımsəhra",
+      "Mülayim",
+      "Tropik"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 294,
+    "question": "Azərbaycanın endemik bitkisi hansıdır?",
+    "options": [
+      "Eldar şamı",
+      "Kiparis",
+      "Palıd",
+      "Qayın"
+    ],
+    "correctAnswer": 0,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 295,
+    "question": "Azərbaycanda ceyranları qoruyan qoruq hansıdır?",
+    "options": [
+      "Göygöl qoruğu",
+      "Şirvan qoruğu",
+      "Zaqatala qoruğu",
+      "Hirkan qoruğu"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 296,
+    "question": "Azərbaycanın gerbində hansı heyvan təsvir olunub?",
+    "options": [
+      "Aslan",
+      "Qartal",
+      "Heyvan yoxdur",
+      "At"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 297,
+    "question": "Kür-Araz ovalığında hansı torpaq tipi üstünlük təşkil edir?",
+    "options": [
+      "Qara torpaq",
+      "Boz torpaq",
+      "Şabalıdı torpaqlar",
+      "Podzollu torpaqlar"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 298,
+    "question": "Azərbaycanın rəmzi sayılan ağac hansıdır?",
+    "options": [
+      "Palıd",
+      "Çinar",
+      "Kiparis",
+      "Şam"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 299,
+    "question": "Hirkan meşələrini qoruyan qoruq hansıdır?",
+    "options": [
+      "Göygöl qoruğu",
+      "Hirkan qoruğu",
+      "Zaqatala qoruğu",
+      "Şirvan qoruğu"
+    ],
+    "correctAnswer": 1,
+    "category": "Наука",
+    "difficulty": "medium",
+    "categoryAz": "Elm",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 300,
+    "question": "Bakının rəmzi sayılan quş hansıdır?",
+    "options": [
+      "Qartal",
+      "Göyərçin",
+      "Flaminqo",
+      "Şahin"
+    ],
+    "correctAnswer": 2,
+    "category": "Наука",
+    "difficulty": "hard",
+    "categoryAz": "Elm",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 301,
+    "question": "«Mona Liza» tablosunu kim çəkib?",
+    "options": [
+      "Mikelancelo",
+      "Rafael",
+      "Leonardo da Vinçi",
+      "Bottiçelli"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 302,
+    "question": "«Mona Liza» hansı muzeydə yerləşir?",
+    "options": [
+      "Uffitsi qalereyası",
+      "Prado muzeyi",
+      "Luvr muzeyi",
+      "Ermitaj muzeyi"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 303,
+    "question": "«Davud» heykəlini kim yaradıb?",
+    "options": [
+      "Donatello",
+      "Mikelancelo",
+      "Bernini",
+      "Roden"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 304,
+    "question": "«Ulduzlu gecə» tablosu ilə tanınan rəssam kimdir?",
+    "options": [
+      "Mone",
+      "Van Qoq",
+      "Renuar",
+      "Sezann"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 305,
+    "question": "Pikasso incəsənətdə hansı cərəyanın əsasını qoyub?",
+    "options": [
+      "İmpressionizm",
+      "Sürrealizm",
+      "Kubizm",
+      "Ekspressionizm"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 306,
+    "question": "«Qışqırıq» tablosunu kim çəkib?",
+    "options": [
+      "Dali",
+      "Munk",
+      "Maqritt",
+      "Klimt"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 307,
+    "question": "«Əriyən saatlar» motivi ilə tanınan rəssam kimdir?",
+    "options": [
+      "Pikasso",
+      "Dali",
+      "Maqritt",
+      "Miro"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 308,
+    "question": "Sikstin kapellası hansı şəhərdə yerləşir?",
+    "options": [
+      "Florensiya",
+      "Roma",
+      "Venesiya",
+      "Milan"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 309,
+    "question": "Sikstin kapellasının tavanını kim rəngləyib?",
+    "options": [
+      "Rafael",
+      "Leonardo da Vinçi",
+      "Mikelancelo",
+      "Karavacco"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 310,
+    "question": "Qaudinin əsərlərinə xas üslub hansıdır?",
+    "options": [
+      "Barokko",
+      "Modern",
+      "Qotika",
+      "Klassisizm"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 311,
+    "question": "«İnci sırğalı qız» tablosunu kim çəkib?",
+    "options": [
+      "Rembrandt",
+      "Vermeer",
+      "Rubens",
+      "Van Deyk"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 312,
+    "question": "Qulağını özünə kəsən rəssam kimdir?",
+    "options": [
+      "Qogen",
+      "Van Qoq",
+      "Sezann",
+      "Tuluz-Lotrek"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 313,
+    "question": "«Gecə keşikçiləri» əsəri hansı muzeydə yerləşir?",
+    "options": [
+      "Luvr muzeyi",
+      "Reyksmuzey",
+      "Prado muzeyi",
+      "Uffitsi qalereyası"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 314,
+    "question": "«Düşünən» heykəlini kim yaradıb?",
+    "options": [
+      "Mikelancelo",
+      "Roden",
+      "Bernini",
+      "Kanova"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 315,
+    "question": "Klod Mone hansı cərəyanın əsasını qoyub?",
+    "options": [
+      "Ekspressionizm",
+      "İmpressionizm",
+      "Kubizm",
+      "Fovizm"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 316,
+    "question": "«Öpüş» tablosunu kim çəkib?",
+    "options": [
+      "Munk",
+      "Klimt",
+      "Şile",
+      "Kokoşka"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 317,
+    "question": "Suprematizm ilə tanınan rəssam kimdir?",
+    "options": [
+      "Kandinski",
+      "Maleviç",
+      "Mondrian",
+      "Klee"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 318,
+    "question": "«Qara kvadrat» tablosunu kim çəkib?",
+    "options": [
+      "Kandinski",
+      "Maleviç",
+      "Mondrian",
+      "Klee"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 319,
+    "question": "Prado muzeyi hansı şəhərdə yerləşir?",
+    "options": [
+      "Barselona",
+      "Madrid",
+      "Sevilya",
+      "Valensiya"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 320,
+    "question": "«Gernika» tablosunu kim çəkib?",
+    "options": [
+      "Dali",
+      "Miro",
+      "Pikasso",
+      "Qoya"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 321,
+    "question": "Günəbaxanlarla bağlı tabloları ilə tanınan rəssam kimdir?",
+    "options": [
+      "Mone",
+      "Van Qoq",
+      "Renuar",
+      "Qogen"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 322,
+    "question": "Azadlıq heykəlini kim yaradıb?",
+    "options": [
+      "Roden",
+      "Bartoldi",
+      "Eyfel",
+      "Kanova"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 323,
+    "question": "Rembrandtın yaradıcılığına xas üslub hansıdır?",
+    "options": [
+      "Renessans",
+      "Barokko",
+      "Rokoko",
+      "Klassisizm"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 324,
+    "question": "«Veneranın doğuluşu» tablosunu kim çəkib?",
+    "options": [
+      "Rafael",
+      "Bottiçelli",
+      "Tisian",
+      "Karavacco"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 325,
+    "question": "Balerinalar mövzusunda tabloları ilə tanınan rəssam kimdir?",
+    "options": [
+      "Mone",
+      "Renuar",
+      "Deqa",
+      "Mane"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 326,
+    "question": "Ermitaj muzeyi hansı şəhərdə yerləşir?",
+    "options": [
+      "Moskva",
+      "Sankt-Peterburq",
+      "Kiyev",
+      "Minsk"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 327,
+    "question": "«Doqquzuncu dalğa» tablosunu kim çəkib?",
+    "options": [
+      "Repin",
+      "Ayvazovski",
+      "Şişkin",
+      "Levitan"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 328,
+    "question": "Dəniz mənzərələri ilə tanınan rəssam kimdir?",
+    "options": [
+      "Şişkin",
+      "Ayvazovski",
+      "Levitan",
+      "Savrasov"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 329,
+    "question": "«Şam meşəsində səhər» tablosunu kim çəkib?",
+    "options": [
+      "Levitan",
+      "Savrasov",
+      "Şişkin",
+      "Vasnetsov"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 330,
+    "question": "«Volqada burlaklar» tablosu ilə tanınan rəssam kimdir?",
+    "options": [
+      "Surikov",
+      "Repin",
+      "Vasnetsov",
+      "Vrubel"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 331,
+    "question": "«Boyarina Morozova» tablosunu kim çəkib?",
+    "options": [
+      "Surikov",
+      "Repin",
+      "Vasnetsov",
+      "Şişkin"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 332,
+    "question": "«Bahadırlar» tablosu ilə tanınan rəssam kimdir?",
+    "options": [
+      "Şişkin",
+      "Vasnetsov",
+      "Repin",
+      "Surikov"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 333,
+    "question": "«Demon» əsərini kim yaradıb?",
+    "options": [
+      "Vasnetsov",
+      "Vrubel",
+      "Repin",
+      "Surikov"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 334,
+    "question": "«Şaftalılı qız» tablosunu kim çəkib?",
+    "options": [
+      "Serov",
+      "Surikov",
+      "Repin",
+      "Şişkin"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 335,
+    "question": "«Milosskaya Venera» heykəli hansı muzeydə yerləşir?",
+    "options": [
+      "Uffitsi qalereyası",
+      "Luvr muzeyi",
+      "Britaniya muzeyi",
+      "Metropoliten muzeyi"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 336,
+    "question": "«Yaddaşın davamlılığı» tablosunu kim çəkib?",
+    "options": [
+      "Pikasso",
+      "Dali",
+      "Maqritt",
+      "Miro"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 337,
+    "question": "Pop-art ilə tanınan rəssam kimdir?",
+    "options": [
+      "Pollok",
+      "Uorhol",
+      "Rauşenberq",
+      "Cons"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 338,
+    "question": "«Kempbell şorbası bankaları» əsərini kim yaradıb?",
+    "options": [
+      "Uorhol",
+      "Lixteynşteyn",
+      "Rozenkvist",
+      "Oldenburq"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 339,
+    "question": "Cekson Pollokun yaradıcılığına xas üslub hansıdır?",
+    "options": [
+      "Pop-art",
+      "Abstrakt ekspressionizm",
+      "Minimalizm",
+      "Konseptualizm"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 340,
+    "question": "«Adəmin yaradılması» freskasının müəllifi kimdir?",
+    "options": [
+      "Rafael",
+      "Leonardo da Vinçi",
+      "Mikelancelo",
+      "Bottiçelli"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 341,
+    "question": "«İnsanın oğlu» tablosu ilə tanınan rəssam kimdir?",
+    "options": [
+      "Dali",
+      "Maqritt",
+      "Miro",
+      "Klimt"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 342,
+    "question": "Uffitsi qalereyası hansı şəhərdə yerləşir?",
+    "options": [
+      "Roma",
+      "Florensiya",
+      "Venesiya",
+      "Milan"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 343,
+    "question": "«Sonuncu şam yeməyi» freskasını kim çəkib?",
+    "options": [
+      "Rafael",
+      "Leonardo da Vinçi",
+      "Mikelancelo",
+      "Karavacco"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 344,
+    "question": "«Su zanbaqları» silsiləsi ilə tanınan rəssam kimdir?",
+    "options": [
+      "Renuar",
+      "Mone",
+      "Deqa",
+      "Sisley"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 345,
+    "question": "«Pieta» heykəlini kim yaradıb?",
+    "options": [
+      "Bernini",
+      "Mikelancelo",
+      "Roden",
+      "Kanova"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 346,
+    "question": "Frida Kalo üçün xarakterik üslub hansıdır?",
+    "options": [
+      "Sürrealizm",
+      "Kübizm",
+      "İmpressionizm",
+      "Realizm"
+    ],
+    "correctAnswer": 0,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 347,
+    "question": "«Amerika qotikası» tablosunu kim çəkib?",
+    "options": [
+      "Hopper",
+      "Vud",
+      "Uayt",
+      "Rokvell"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 348,
+    "question": "«Gecə şahinləri» tablosu ilə tanınan rəssam kimdir?",
+    "options": [
+      "Hopper",
+      "Vud",
+      "Uayt",
+      "Rokvell"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 349,
+    "question": "Quggenhaym muzeyi hansı şəhərdə yerləşir?",
+    "options": [
+      "Paris",
+      "London",
+      "Nyu-York",
+      "Berlin"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 350,
+    "question": "«Fəvvarə» (pissuarın art-obyekt kimi təqdimatı) əsərini kim yaradıb?",
+    "options": [
+      "Uorhol",
+      "Düşan",
+      "Boyş",
+      "Kuns"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 351,
+    "question": "Nöqtəli texnika (puantilizm) ilə tanınan rəssam kimdir?",
+    "options": [
+      "Mone",
+      "Sera",
+      "Sinyak",
+      "Pissarro"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 352,
+    "question": "«Olimpiya» tablosunu kim çəkib?",
+    "options": [
+      "Deqa",
+      "Mane",
+      "Mone",
+      "Renuar"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 353,
+    "question": "Qustav Klimt üçün xarakterik üslub hansıdır?",
+    "options": [
+      "İmpressionizm",
+      "Modern",
+      "Ekspressionizm",
+      "Simvolizm"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 354,
+    "question": "«Las Meninas» tablosunu kim çəkib?",
+    "options": [
+      "Qoya",
+      "Velaskes",
+      "El Qreko",
+      "Miro"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 355,
+    "question": "Nənufərlərlə (su zanbaqları ilə) bağlı tabloları ilə tanınan rəssam kimdir?",
+    "options": [
+      "Renuar",
+      "Mone",
+      "Deqa",
+      "Sisley"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 356,
+    "question": "«Müqəddəs Tereza ekstazı» heykəl kompozisiyasını kim yaradıb?",
+    "options": [
+      "Mikelancelo",
+      "Bernini",
+      "Roden",
+      "Kanova"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 357,
+    "question": "El Qreko üçün xarakterik üslub hansıdır?",
+    "options": [
+      "Barokko",
+      "Renessans",
+      "Manyerizm",
+      "Rokoko"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 358,
+    "question": "«Ot üstündə səhər yeməyi» tablosunu kim çəkib?",
+    "options": [
+      "Mane",
+      "Mone",
+      "Renuar",
+      "Deqa"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 359,
+    "question": "Həndəsi abstraksiya ilə tanınan rəssam kimdir?",
+    "options": [
+      "Kandinski",
+      "Maleviç",
+      "Mondrian",
+      "Klee"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 360,
+    "question": "«Cəhənnəm qapıları» əsərini kim yaradıb?",
+    "options": [
+      "Mikelancelo",
+      "Roden",
+      "Bernini",
+      "Kanova"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 361,
+    "question": "Karavacco üçün xarakterik üslub hansıdır?",
+    "options": [
+      "Renessans",
+      "Barokko",
+      "Rokoko",
+      "Klassisizm"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 362,
+    "question": "«Afina məktəbi» freskasını kim çəkib?",
+    "options": [
+      "Leonardo da Vinçi",
+      "Rafael",
+      "Mikelancelo",
+      "Karavacco"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 363,
+    "question": "Taiti mövzusunda əsərləri ilə tanınan rəssam kimdir?",
+    "options": [
+      "Qogen",
+      "Van Qoq",
+      "Mone",
+      "Renuar"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 364,
+    "question": "«Kale vətəndaşları» heykəl qrupunu kim yaradıb?",
+    "options": [
+      "Roden",
+      "Kanova",
+      "Bernini",
+      "Mikelancelo"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 365,
+    "question": "Tisian üçün xarakterik üslub hansıdır?",
+    "options": [
+      "Barokko",
+      "Rokoko",
+      "Klassisizm",
+      "Renessans"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 366,
+    "question": "«Bahar» tablosunu kim çəkib?",
+    "options": [
+      "Rafael",
+      "Bottiçelli",
+      "Tisian",
+      "Karavacco"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 367,
+    "question": "«Üç Qrasiya» əsəri ilə tanınan rəssam kimdir?",
+    "options": [
+      "Rubens",
+      "Rafael",
+      "Bottiçelli",
+      "Kanova"
+    ],
+    "correctAnswer": 0,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 368,
+    "question": "«Apollon və Dafna» heykəlini kim yaradıb?",
+    "options": [
+      "Roden",
+      "Mikelancelo",
+      "Bernini",
+      "Kanova"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 369,
+    "question": "Rubens üçün xarakterik üslub hansıdır?",
+    "options": [
+      "Renessans",
+      "Barokko",
+      "Rokoko",
+      "Klassisizm"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 370,
+    "question": "«Gecə keşikçiləri» tablosunu kim çəkib?",
+    "options": [
+      "Vermeer",
+      "Rembrandt",
+      "Hals",
+      "Rubens"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 371,
+    "question": "«Leyli və Məcnun» operasının müəllifi kimdir?",
+    "options": [
+      "Qara Qarayev",
+      "Üzeyir Hacıbəyli",
+      "Fikrət Əmirov",
+      "Müslüm Maqomayev"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 372,
+    "question": "«Çay süfrəsi» tablosu ilə tanınan azərbaycanlı rəssam kimdir?",
+    "options": [
+      "Səttar Bəhlulzadə",
+      "Tahir Salahov",
+      "Toğrul Nərimanbəyov",
+      "Mikayıl Abdullayev"
+    ],
+    "correctAnswer": 0,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 373,
+    "question": "Azərbaycandan UNESCO siyahısına daxil edilən incəsənət növü hansıdır?",
+    "options": [
+      "Balet",
+      "Muğam",
+      "Opera",
+      "Simfoniya"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 374,
+    "question": "Azərbaycan operasının banisi kimdir?",
+    "options": [
+      "Üzeyir Hacıbəyli",
+      "Müslüm Maqomayev",
+      "Qara Qarayev",
+      "Fikrət Əmirov"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 375,
+    "question": "«Yeddi gözəl» baletini hansı azərbaycanlı bəstəkar yazıb?",
+    "options": [
+      "Arif Məlikov",
+      "Qara Qarayev",
+      "Fikrət Əmirov",
+      "Üzeyir Hacıbəyli"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 376,
+    "question": "Azərbaycanın simvolu sayılan musiqi aləti hansıdır?",
+    "options": [
+      "Dombra",
+      "Tar",
+      "Dutar",
+      "Kamança"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 377,
+    "question": "Azərbaycan himninin musiqisinin müəllifi kimdir?",
+    "options": [
+      "Qara Qarayev",
+      "Üzeyir Hacıbəyli",
+      "Fikrət Əmirov",
+      "Niyazi"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 378,
+    "question": "Mənzərə rəsmləri ilə tanınan azərbaycanlı rəssam kimdir?",
+    "options": [
+      "Səttar Bəhlulzadə",
+      "Tahir Salahov",
+      "Toğrul Nərimanbəyov",
+      "Mikayıl Abdullayev"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 379,
+    "question": "Azərbaycanın əsas opera teatrı hansıdır?",
+    "options": [
+      "Mirzə Fətəli Axundzadə adına Opera və Balet Teatrı",
+      "Azərbaycan Dövlət Akademik Milli Dram Teatrı",
+      "Azərbaycan Dövlət Rus Dram Teatrı",
+      "Azərbaycan Dövlət Gənc Tamaşaçılar Teatrı"
+    ],
+    "correctAnswer": 0,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 380,
+    "question": "«İldırım yolu ilə» baletinin müəllifi kimdir?",
+    "options": [
+      "Arif Məlikov",
+      "Qara Qarayev",
+      "Fikrət Əmirov",
+      "Üzeyir Hacıbəyli"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 381,
+    "question": "UNESCO siyahısına hansı Azərbaycan xalçası daxil edilib?",
+    "options": [
+      "Quba xalçası",
+      "Şirvan xalçası",
+      "Qarabağ xalçası",
+      "Hamısı"
+    ],
+    "correctAnswer": 3,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 382,
+    "question": "Məşhur azərbaycanlı heykəltəraş kimdir?",
+    "options": [
+      "Ömər Eldarov",
+      "Səttar Bəhlulzadə",
+      "Tahir Salahov",
+      "Toğrul Nərimanbəyov"
+    ],
+    "correctAnswer": 0,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 383,
+    "question": "Simfonik muğamları hansı azərbaycanlı bəstəkar yazıb?",
+    "options": [
+      "Üzeyir Hacıbəyli",
+      "Qara Qarayev",
+      "Fikrət Əmirov",
+      "Niyazi"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 384,
+    "question": "Bakıda xalçalara həsr olunmuş muzey hansıdır?",
+    "options": [
+      "İncəsənət muzeyi",
+      "Xalça muzeyi",
+      "Milli muzey",
+      "Tarix muzeyi"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 385,
+    "question": "«Koroğlu» operasının müəllifi kimdir?",
+    "options": [
+      "Qara Qarayev",
+      "Üzeyir Hacıbəyli",
+      "Fikrət Əmirov",
+      "Arif Məlikov"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 386,
+    "question": "Sosrealizm üslubunda çalışmış azərbaycanlı rəssam kimdir?",
+    "options": [
+      "Səttar Bəhlulzadə",
+      "Tahir Salahov",
+      "Toğrul Nərimanbəyov",
+      "Mikayıl Abdullayev"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 387,
+    "question": "Muğam üçlüyünə hansı alətlər daxildir?",
+    "options": [
+      "Tar, kamança, qaval",
+      "Tar, saz, nağara",
+      "Kamança, zurna, baraban",
+      "Saz, balaban, qaval"
+    ],
+    "correctAnswer": 0,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 388,
+    "question": "Məşhur azərbaycanlı xanəndə kimdir?",
+    "options": [
+      "Alim Qasımov",
+      "Müslüm Maqomayev",
+      "Rəşid Behbudov",
+      "Polad Bülbüloğlu"
+    ],
+    "correctAnswer": 0,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 389,
+    "question": "«Məhəbbət əfsanəsi» baletini hansı azərbaycanlı bəstəkar yazıb?",
+    "options": [
+      "Üzeyir Hacıbəyli",
+      "Qara Qarayev",
+      "Arif Məlikov",
+      "Fikrət Əmirov"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 390,
+    "question": "Şəkidə inkişaf etmiş dekorativ sənət növü hansıdır?",
+    "options": [
+      "Xalçaçılıq",
+      "Şəbəkə",
+      "Keramika",
+      "Zərgərlik"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 391,
+    "question": "Bakıda Nizami abidəsinin müəllifi kimdir?",
+    "options": [
+      "Ömər Eldarov",
+      "Fuad Abdurrəhmanov",
+      "Tokay Məmmədov",
+      "Cəlal Qaryağdı"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 392,
+    "question": "SSRİ-nin xalq artisti olmuş azərbaycanlı müğənni kimdir?",
+    "options": [
+      "Alim Qasımov",
+      "Müslüm Maqomayev",
+      "Rəşid Behbudov",
+      "Polad Bülbüloğlu"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 393,
+    "question": "Şəkidə freskalarla bəzədilmiş saray hansıdır?",
+    "options": [
+      "Şirvanşahlar sarayı",
+      "Şəki xanlarının sarayı",
+      "Gəncə xanlarının sarayı",
+      "Qarabağ xanlarının sarayı"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 394,
+    "question": "Azərbaycan baletinin banisi kim sayılır?",
+    "options": [
+      "Qəmər Almaszadə",
+      "Leyla Vəkilova",
+      "Rəfiqə Axundova",
+      "Məqsud Məmmədov"
+    ],
+    "correctAnswer": 0,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 395,
+    "question": "Abstrakt işləri ilə tanınan azərbaycanlı rəssam kimdir?",
+    "options": [
+      "Səttar Bəhlulzadə",
+      "Tahir Salahov",
+      "Toğrul Nərimanbəyov",
+      "Rasim Babayev"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 396,
+    "question": "Azərbaycan üçün ənənəvi musiqi janrı hansıdır?",
+    "options": [
+      "Blyuz",
+      "Flamenko",
+      "Muğam",
+      "Reqqi"
+    ],
+    "correctAnswer": 2,
+    "category": "Искусство",
+    "difficulty": "easy",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 397,
+    "question": "Məşhur azərbaycanlı dirijor kimdir?",
+    "options": [
+      "Niyazi",
+      "Qara Qarayev",
+      "Fikrət Əmirov",
+      "Üzeyir Hacıbəyli"
+    ],
+    "correctAnswer": 0,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 398,
+    "question": "Hansı Azərbaycan rəqsi milli rəqs sayılır?",
+    "options": [
+      "Ləzginka",
+      "Yallı",
+      "Hopak",
+      "Xorovod"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 399,
+    "question": "«Qorxma, mən səninləyəm» filminin musiqisini kim bəstələyib?",
+    "options": [
+      "Qara Qarayev",
+      "Polad Bülbüloğlu",
+      "Emin Sabitoğlu",
+      "Tofiq Quliyev"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "medium",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 400,
+    "question": "«Abşeron» silsiləsini hansı azərbaycanlı rəssam yaradıb?",
+    "options": [
+      "Səttar Bəhlulzadə",
+      "Tahir Salahov",
+      "Toğrul Nərimanbəyov",
+      "Mikayıl Abdullayev"
+    ],
+    "correctAnswer": 1,
+    "category": "Искусство",
+    "difficulty": "hard",
+    "categoryAz": "İncəsənət",
+    "difficultyAz": "çətin"
+  },
+  {
+    "id": 401,
+    "question": "«Müharibə və sülh» əsərini kim yazıb?",
+    "options": [
+      "Dostoyevski",
+      "Tolstoy",
+      "Çexov",
+      "Turgenyev"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "easy",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 402,
+    "question": "«Cinayət və cəza» əsərini kim yazıb?",
+    "options": [
+      "Dostoyevski",
+      "Tolstoy",
+      "Çexov",
+      "Qoqol"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "easy",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 403,
+    "question": "«Yevgeni Onegin» əsərini kim yazıb?",
+    "options": [
+      "Puşkin",
+      "Lermontov",
+      "Tolstoy",
+      "Dostoyevski"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "easy",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 404,
+    "question": "«Hamlet» əsərini kim yazıb?",
+    "options": [
+      "Şekspir",
+      "Molyer",
+      "Servantes",
+      "Dikkens"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "easy",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 405,
+    "question": "«Don Kixot» əsərini kim yazıb?",
+    "options": [
+      "Lope de Veqa",
+      "Servantes",
+      "Kalderon",
+      "Qonqora"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "easy",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 406,
+    "question": "«İlahi komediya» əsərini kim yazıb?",
+    "options": [
+      "Dante",
+      "Petrarka",
+      "Bokkaçço",
+      "Makiavelli"
+    ],
+    "correctAnswer": 2,
+    "category": "Литература",
+    "difficulty": "medium",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 407,
+    "question": "«Faust» əsərini kim yazıb?",
+    "options": [
+      "Şiller",
+      "Göte",
+      "Heyne",
+      "Lessinq"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "medium",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 408,
+    "question": "«Ölü canlar» əsərini kim yazıb?",
+    "options": [
+      "Qoqol",
+      "Dostoyevski",
+      "Tolstoy",
+      "Çexov"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "easy",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 409,
+    "question": "«Anna Karenina» əsərini kim yazıb?",
+    "options": [
+      "Tolstoy",
+      "Dostoyevski",
+      "Çexov",
+      "Turgenyev"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "easy",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 410,
+    "question": "«Zamanımızın qəhrəmanı» əsərini kim yazıb?",
+    "options": [
+      "Puşkin",
+      "Lermontov",
+      "Tolstoy",
+      "Çexov"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "easy",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 411,
+    "question": "«Atalar və oğullar» əsərini kim yazıb?",
+    "options": [
+      "Turgenyev",
+      "Tolstoy",
+      "Dostoyevski",
+      "Qoqol"
+    ],
+    "correctAnswer": 2,
+    "category": "Литература",
+    "difficulty": "easy",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 412,
+    "question": "«Romeo və Cülyetta» əsərini kim yazıb?",
+    "options": [
+      "Şekspir",
+      "Bayron",
+      "Milton",
+      "Dikkens"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "easy",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 413,
+    "question": "«Üç muşketyor» əsərini kim yazıb?",
+    "options": [
+      "Düma",
+      "Hüqo",
+      "Balzak",
+      "Zola"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "easy",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 414,
+    "question": "«Səfillər» əsərini kim yazıb?",
+    "options": [
+      "Hüqo",
+      "Düma",
+      "Balzak",
+      "Zola"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "medium",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 415,
+    "question": "«Paris Notr-Dam kafedralı» əsərini kim yazıb?",
+    "options": [
+      "Hüqo",
+      "Balzak",
+      "Düma",
+      "Zola"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "medium",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 416,
+    "question": "«Usta və Marqarita» əsərini kim yazıb?",
+    "options": [
+      "Bulqakov",
+      "Pasternak",
+      "Şoloxov",
+      "Soljenitsın"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "easy",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "asan"
+  },
+  {
+    "id": 417,
+    "question": "«Doktor Jivaqo» əsərini kim yazıb?",
+    "options": [
+      "Bulqakov",
+      "Pasternak",
+      "Şoloxov",
+      "Soljenitsın"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "medium",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 418,
+    "question": "«Sakit Don» əsərini kim yazıb?",
+    "options": [
+      "Bulqakov",
+      "Pasternak",
+      "Şoloxov",
+      "Qorki"
+    ],
+    "correctAnswer": 2,
+    "category": "Литература",
+    "difficulty": "medium",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 419,
+    "question": "«1984» əsərini kim yazıb?",
+    "options": [
+      "Haksli",
+      "Oruell",
+      "Bredberi",
+      "Zamyatin"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "medium",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 420,
+    "question": "«Cəsur yeni dünya» əsərini kim yazıb?",
+    "options": [
+      "Oruell",
+      "Haksli",
+      "Uells",
+      "Bredberi"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "medium",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "orta"
+  },
+  {
+    "id": 421,
+    "question": "«Farenhayt üzrə 451 dərəcə» əsərini kim yazıb?",
+    "options": [
+      "Azimov",
+      "Bredberi",
+      "Klark",
+      "Haynlayn"
+    ],
+    "correctAnswer": 1,
+    "category": "Литература",
+    "difficulty": "medium",
+    "categoryAz": "Ədəbiyyat",
+    "difficultyAz": "orta"
+  }
+]
