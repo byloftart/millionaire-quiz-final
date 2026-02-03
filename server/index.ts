@@ -3,12 +3,12 @@ import express from "express";
 import { createServer } from "http";
 import path from "path";
 import { fileURLToPath } from "url";
-import { WebSocketServer } from "ws";
+import { WebSocketServer, type WebSocket } from "ws";
 import { Pool } from "pg";
 import { ExpressAuth, getSession } from "@auth/express";
 import Google from "@auth/core/providers/google";
 import Apple from "@auth/core/providers/apple";
-import { PostgresAdapter } from "@auth/pg-adapter";
+import PostgresAdapter from "@auth/pg-adapter";
 import crypto from "crypto";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -27,14 +27,22 @@ const authConfig = {
   secret: process.env.AUTH_SECRET,
   adapter: PostgresAdapter(pool),
   providers: [
-    Google({
-      clientId: process.env.GOOGLE_CLIENT_ID || "",
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET || "",
-    }),
-    Apple({
-      clientId: process.env.APPLE_CLIENT_ID || "",
-      clientSecret: process.env.APPLE_CLIENT_SECRET || "",
-    }),
+    ...(process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET
+      ? [
+          Google({
+            clientId: process.env.GOOGLE_CLIENT_ID,
+            clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+          }),
+        ]
+      : []),
+    ...(process.env.APPLE_CLIENT_ID && process.env.APPLE_CLIENT_SECRET
+      ? [
+          Apple({
+            clientId: process.env.APPLE_CLIENT_ID,
+            clientSecret: process.env.APPLE_CLIENT_SECRET,
+          }),
+        ]
+      : []),
   ],
   callbacks: {
     session: async ({ session, user }: any) => {
@@ -326,14 +334,14 @@ async function startServer() {
 
   const broadcastLeaderboard = (results: any[]) => {
     const payload = JSON.stringify({ type: "leaderboard", results });
-    wss.clients.forEach((client) => {
+    wss.clients.forEach((client: WebSocket) => {
       if (client.readyState === 1) {
         client.send(payload);
       }
     });
   };
 
-  wss.on("connection", async (socket) => {
+  wss.on("connection", async (socket: WebSocket) => {
     const results = await getLeaderboard(50);
     socket.send(JSON.stringify({ type: "leaderboard", results }));
   });
