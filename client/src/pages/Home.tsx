@@ -16,12 +16,12 @@ import { QuizCard } from '@/components/QuizCard';
 import { ResultScreen } from '@/components/ResultScreen';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
-import { ArrowRight, Brain } from 'lucide-react';
+import { ArrowRight, Brain, Home as HomeIcon } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Home() {
   const { language, t } = useLanguage();
-  const { customQuestions, customQuestionsCount } = useCustomQuestions(language);
+  const { customQuestions } = useCustomQuestions(language);
   
   const {
     isQuizStarted,
@@ -40,7 +40,6 @@ export default function Home() {
     maxStreak,
     progress,
     mode,
-    totalAvailableQuestions,
     startQuiz,
     selectAnswer,
     nextQuestion,
@@ -62,11 +61,7 @@ export default function Home() {
   // Start screen
   if (!isQuizStarted && !isQuizFinished) {
     return (
-      <StartScreen 
-        onStart={handleStart}
-        totalQuestions={totalAvailableQuestions}
-        customQuestionsCount={customQuestionsCount}
-      />
+      <StartScreen onStart={handleStart} />
     );
   }
 
@@ -115,6 +110,15 @@ export default function Home() {
 
             {/* Score */}
             <div className="flex items-center gap-3 sm:gap-4">
+              <Button
+                onClick={handleHome}
+                variant="outline"
+                size="sm"
+                className="hidden sm:inline-flex gap-2"
+              >
+                <HomeIcon className="w-4 h-4" />
+                {t.backToMenu}
+              </Button>
               <div className="text-right">
                 <p className="text-[10px] sm:text-xs text-slate-500">{t.score}</p>
                 <p className="text-base sm:text-lg font-bold gradient-text">{score.toLocaleString()}</p>
@@ -125,6 +129,17 @@ export default function Home() {
                 <p className="text-base sm:text-lg font-bold text-emerald-600">{correctAnswers}/{currentQuestionIndex + (isAnswerRevealed ? 1 : 0)}</p>
               </div>
             </div>
+          </div>
+          <div className="sm:hidden mt-2">
+            <Button
+              onClick={handleHome}
+              variant="outline"
+              size="sm"
+              className="w-full gap-2"
+            >
+              <HomeIcon className="w-4 h-4" />
+              {t.backToMenu}
+            </Button>
           </div>
 
           {/* Progress bar */}

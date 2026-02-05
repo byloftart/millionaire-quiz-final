@@ -120,8 +120,9 @@ export function QuizCard({
           {question.options.map((option, index) => {
             const isSelected = selectedAnswer === index;
             const isCorrect = index === question.correctAnswer;
-            const showCorrect = isAnswerRevealed && isCorrect;
-            const showIncorrect = isAnswerRevealed && isSelected && !isCorrect;
+            const hasSelection = selectedAnswer !== null;
+            const showCorrect = isAnswerRevealed && hasSelection && isCorrect;
+            const showIncorrect = isAnswerRevealed && hasSelection && isSelected && !isCorrect;
 
             return (
               <motion.button
@@ -170,7 +171,7 @@ export function QuizCard({
                 </span>
 
                 {/* Correct indicator for non-selected correct answer */}
-                {isAnswerRevealed && isCorrect && !isSelected && (
+                {isAnswerRevealed && hasSelection && isCorrect && !isSelected && (
                   <CheckCircle2 className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-500 flex-shrink-0" />
                 )}
               </motion.button>

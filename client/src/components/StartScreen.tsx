@@ -13,7 +13,6 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Brain, Clock, Target, Trophy, Sparkles, Play } from 'lucide-react';
 import { QuizMode } from '@/hooks/useQuiz';
-import { ImportQuestions } from './ImportQuestions';
 import { Leaderboard } from './Leaderboard';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { LanguageSwitcher } from './LanguageSwitcher';
@@ -21,11 +20,9 @@ import { AuthButton } from './AuthButton';
 
 interface StartScreenProps {
   onStart: (mode: QuizMode) => void;
-  totalQuestions: number;
-  customQuestionsCount: number;
 }
 
-export function StartScreen({ onStart, totalQuestions, customQuestionsCount }: StartScreenProps) {
+export function StartScreen({ onStart }: StartScreenProps) {
   const { t } = useLanguage();
   const [selectedMode, setSelectedMode] = useState<QuizMode>('50');
 
@@ -41,7 +38,6 @@ export function StartScreen({ onStart, totalQuestions, customQuestionsCount }: S
       <div className="absolute top-4 right-4 flex gap-2 z-20">
         <AuthButton />
         <LanguageSwitcher />
-        <ImportQuestions />
         <Leaderboard />
       </div>
 
@@ -77,9 +73,7 @@ export function StartScreen({ onStart, totalQuestions, customQuestionsCount }: S
           transition={{ delay: 0.3, duration: 0.5 }}
           className="text-2xl sm:text-4xl md:text-5xl font-display font-bold mb-3 sm:mb-4 px-2"
         >
-          <span className="gradient-text">{t.appTitle.split('?')[0]}</span>
-          <br />
-          <span className="gradient-text text-xl sm:text-3xl md:text-4xl">{t.appTitle}</span>
+          <span className="gradient-text">{t.appTitle}</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -87,7 +81,7 @@ export function StartScreen({ onStart, totalQuestions, customQuestionsCount }: S
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.5 }}
-          className="text-sm sm:text-lg text-slate-600 mb-6 sm:mb-8 max-w-md mx-auto px-4"
+          className="text-xs sm:text-sm text-slate-600 mb-6 sm:mb-8 max-w-md mx-auto px-4"
         >
           {t.appSubtitle}
         </motion.p>
@@ -181,12 +175,6 @@ export function StartScreen({ onStart, totalQuestions, customQuestionsCount }: S
         >
           <p className="text-xs sm:text-sm text-slate-500 px-4">
             {t.questionsInfo}
-          </p>
-          <p className="text-xs text-slate-400">
-            {t.totalInDatabase}: {totalQuestions} {t.questions}
-            {customQuestionsCount > 0 && (
-              <span className="text-indigo-500"> (+{customQuestionsCount} {t.custom})</span>
-            )}
           </p>
         </motion.div>
       </motion.div>

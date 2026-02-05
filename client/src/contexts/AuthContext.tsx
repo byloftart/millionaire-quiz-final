@@ -13,7 +13,7 @@ interface AuthContextType {
   user: AuthUser | null;
   status: AuthStatus;
   refresh: () => Promise<void>;
-  login: (provider: "google" | "apple") => void;
+  login: (provider: "google") => void;
   logout: () => void;
 }
 
@@ -49,7 +49,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     refresh();
   }, [refresh]);
 
-  const login = useCallback((provider: "google" | "apple") => {
+  const login = useCallback((provider: "google") => {
     fetch("/api/auth/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },

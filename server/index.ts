@@ -7,7 +7,6 @@ import { WebSocketServer, type WebSocket } from "ws";
 import { Pool } from "pg";
 import { ExpressAuth, getSession } from "@auth/express";
 import Google from "@auth/core/providers/google";
-import Apple from "@auth/core/providers/apple";
 import PostgresAdapter from "@auth/pg-adapter";
 import crypto from "crypto";
 
@@ -32,14 +31,6 @@ const authConfig = {
           Google({
             clientId: process.env.GOOGLE_CLIENT_ID,
             clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-          }),
-        ]
-      : []),
-    ...(process.env.APPLE_CLIENT_ID && process.env.APPLE_CLIENT_SECRET
-      ? [
-          Apple({
-            clientId: process.env.APPLE_CLIENT_ID,
-            clientSecret: process.env.APPLE_CLIENT_SECRET,
           }),
         ]
       : []),
@@ -225,13 +216,11 @@ async function startServer() {
   app.use(express.urlencoded({ extended: true }));
 
   app.post("/api/auth/login", (req, res) => {
-    const provider = req.body?.provider === "apple" ? "apple" : "google";
-    res.json({ url: `/api/auth/signin/${provider}` });
+    res.json({ url: "/api/auth/signin/google" });
   });
 
   app.get("/api/auth/callback", (req, res) => {
-    const provider = req.query.provider === "apple" ? "apple" : "google";
-    res.redirect(`/api/auth/callback/${provider}`);
+    res.redirect("/api/auth/callback/google");
   });
 
   app.use("/api/auth", ExpressAuth(authConfig));

@@ -8,7 +8,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { LogIn, LogOut, User } from "lucide-react";
+import { LogOut, User } from "lucide-react";
 import { useAuth } from "@/contexts/AuthContext";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -57,9 +57,12 @@ export function AuthButton({ className }: AuthButtonProps) {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button variant="outline" size="sm" className={className}>
-          <LogIn className="w-4 h-4" />
-          <span className="hidden sm:inline">{t.authLogin}</span>
+        <Button
+          variant="outline"
+          size="sm"
+          className={`px-3 sm:px-4 font-semibold ${className ?? ""}`}
+        >
+          <span className="text-xs sm:text-sm">{t.authLoginCta}</span>
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-md max-w-[95vw] mx-auto">
@@ -72,13 +75,6 @@ export function AuthButton({ className }: AuthButtonProps) {
         <div className="grid gap-2">
           <Button onClick={() => login("google")} className="w-full">
             {t.authContinueGoogle}
-          </Button>
-          <Button
-            onClick={() => login("apple")}
-            variant="outline"
-            className="w-full"
-          >
-            {t.authContinueApple}
           </Button>
         </div>
       </DialogContent>

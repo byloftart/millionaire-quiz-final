@@ -41,6 +41,8 @@ export function useQuiz(customQuestions: Question[] = [], language: Language = '
   });
 
   const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const autoNextRef = useRef<NodeJS.Timeout | null>(null);
+  const selectionLockRef = useRef(false);
 
   // Объединённая база вопросов (базовые + пользовательские)
   const getAllQuestions = useCallback((): Question[] => {
@@ -89,7 +91,7 @@ export function useQuiz(customQuestions: Question[] = [], language: Language = '
     timerRef.current = setInterval(() => {
       setState(prev => {
         if (prev.timeRemaining <= 1) {
-          // Время вышло - показываем правильный ответ
+          // Время вышло - фиксируем как неверный ответ без показа правильного
           if (timerRef.current) {
             clearInterval(timerRef.current);
           }
@@ -114,10 +116,19 @@ export function useQuiz(customQuestions: Question[] = [], language: Language = '
     }
   }, []);
 
+  const clearAutoNext = useCallback(() => {
+    if (autoNextRef.current) {
+      clearTimeout(autoNextRef.current);
+      autoNextRef.current = null;
+    }
+  }, []);
+
   // Начало викторины с выбранным режимом
   const startQuiz = useCallback((mode: QuizMode = '50') => {
     const questionCount = mode === '25' ? 25 : 50;
     const questions = getQuestions(questionCount);
+    selectionLockRef.current = false;
+    clearAutoNext();
     
     setState({
       questions,
@@ -134,7 +145,7 @@ export function useQuiz(customQuestions: Question[] = [], language: Language = '
       maxStreak: 0,
       mode,
     });
-  }, [getQuestions]);
+  }, [getQuestions, clearAutoNext]);
 
   // Запуск таймера при начале викторины или переходе к следующему вопросу
   useEffect(() => {
@@ -146,7 +157,8 @@ export function useQuiz(customQuestions: Question[] = [], language: Language = '
 
   // Выбор ответа
   const selectAnswer = useCallback((answerIndex: number) => {
-    if (state.isAnswerRevealed || state.selectedAnswer !== null) return;
+    if (selectionLockRef.current || state.isAnswerRevealed || state.selectedAnswer !== null) return;
+    selectionLockRef.current = true;
     
     stopTimer();
     
@@ -167,6 +179,8 @@ export function useQuiz(customQuestions: Question[] = [], language: Language = '
 
   // Переход к следующему вопросу
   const nextQuestion = useCallback(() => {
+    clearAutoNext();
+    selectionLockRef.current = false;
     if (state.currentQuestionIndex >= state.questions.length - 1) {
       setState(prev => ({ ...prev, isQuizFinished: true }));
       return;
@@ -184,13 +198,26 @@ export function useQuiz(customQuestions: Question[] = [], language: Language = '
   // Перезапуск викторины
   const restartQuiz = useCallback(() => {
     stopTimer();
+    clearAutoNext();
+    selectionLockRef.current = false;
     setState(prev => ({ ...prev, isQuizStarted: false, isQuizFinished: false }));
-  }, [stopTimer]);
+  }, [stopTimer, clearAutoNext]);
 
   // Очистка при размонтировании
   useEffect(() => {
     return () => stopTimer();
   }, [stopTimer]);
+
+  useEffect(() => {
+    if (!state.isAnswerRevealed || state.selectedAnswer === null) {
+      return;
+    }
+    clearAutoNext();
+    autoNextRef.current = setTimeout(() => {
+      nextQuestion();
+    }, 2500);
+    return () => clearAutoNext();
+  }, [state.isAnswerRevealed, state.selectedAnswer, nextQuestion, clearAutoNext]);
 
   const currentQuestion = state.questions[state.currentQuestionIndex] || null;
   const progress = state.questions.length > 0 

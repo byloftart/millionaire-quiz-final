@@ -115,8 +115,8 @@ export interface Translations {
   authLogin: string;
   authLogout: string;
   authContinueGoogle: string;
-  authContinueApple: string;
   authGuest: string;
+  authLoginCta: string;
 
   // Системные экраны
   notFoundTitle: string;
@@ -259,8 +259,8 @@ export const translations: Record<Language, Translations> = {
     authLogin: "Войти",
     authLogout: "Выйти",
     authContinueGoogle: "Продолжить с Google",
-    authContinueApple: "Продолжить с Apple",
     authGuest: "Гость",
+    authLoginCta: "Зайти в игру",
 
     notFoundTitle: "404",
     notFoundSubtitle: "Страница не найдена",
@@ -398,8 +398,8 @@ export const translations: Record<Language, Translations> = {
     authLogin: "Daxil ol",
     authLogout: "Çıxış",
     authContinueGoogle: "Google ilə davam et",
-    authContinueApple: "Apple ilə davam et",
     authGuest: "Qonaq",
+    authLoginCta: "Oyuna daxil ol",
 
     notFoundTitle: "404",
     notFoundSubtitle: "Səhifə tapılmadı",
