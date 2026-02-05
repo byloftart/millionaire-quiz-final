@@ -200,6 +200,7 @@ export default function Home() {
       {/* Footer hint */}
       <footer className="py-3 sm:py-4 text-center text-xs sm:text-sm text-slate-400 relative z-10">
         <p>{t.footerHint}</p>
+        <p className="text-[10px] sm:text-xs text-slate-400">Loft Art Studio</p>
       </footer>
     </div>
   );

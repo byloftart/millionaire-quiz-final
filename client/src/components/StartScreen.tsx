@@ -178,6 +178,10 @@ export function StartScreen({ onStart }: StartScreenProps) {
           </p>
         </motion.div>
       </motion.div>
+
+      <footer className="relative z-10 mt-6 text-[10px] sm:text-xs text-slate-400">
+        Loft Art Studio
+      </footer>
     </div>
   );
 }

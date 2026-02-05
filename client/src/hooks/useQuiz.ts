@@ -21,7 +21,7 @@ export interface QuizState {
   mode: QuizMode;
 }
 
-const QUESTION_TIME = 20; // секунд на вопрос (изменено с 30 на 20)
+const QUESTION_TIME = 10; // секунд на вопрос
 
 export function useQuiz(customQuestions: Question[] = [], language: Language = 'ru') {
   const [state, setState] = useState<QuizState>({
