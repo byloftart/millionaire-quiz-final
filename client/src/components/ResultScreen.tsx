@@ -10,7 +10,7 @@
 
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { Trophy, Target, Zap, RotateCcw, CheckCircle2, XCircle, Home } from 'lucide-react';
+import { Trophy, Target, Zap, RotateCcw, CheckCircle2, XCircle, Home, X, Share2 } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { QuizMode } from '@/hooks/useQuiz';
 import { useLeaderboard } from '@/hooks/useLeaderboard';
@@ -100,17 +100,17 @@ export function ResultScreen({
   const confettiColors = ['#06B6D4', '#6366F1', '#10B981', '#F59E0B', '#EC4899'];
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-4 py-6 sm:p-6 relative overflow-hidden">
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 py-6 sm:p-6 relative overflow-hidden triviz-page">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 left-0 w-64 sm:w-96 h-64 sm:h-96 bg-gradient-to-br from-cyan-100/50 to-transparent rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
-        <div className="absolute bottom-0 right-0 w-64 sm:w-96 h-64 sm:h-96 bg-gradient-to-tl from-indigo-100/50 to-transparent rounded-full blur-3xl translate-x-1/2 translate-y-1/2" />
+        <div className="absolute -top-16 -left-12 h-40 w-40 rounded-full bg-[#FFE9C2]" />
+        <div className="absolute bottom-20 right-10 h-24 w-24 rounded-full bg-[#FFE9C2]" />
       </div>
 
       {/* Leaderboard button */}
       <div className="absolute top-4 right-4 z-20 flex gap-2">
-        <AuthButton />
-        <Leaderboard />
+        <AuthButton className="triviz-pill" />
+        <Leaderboard className="triviz-pill" />
       </div>
 
       {/* Confetti */}
@@ -150,16 +150,36 @@ export function ResultScreen({
         className="relative z-10 max-w-lg w-full"
       >
         {/* Result card */}
-        <div className="bg-white rounded-2xl sm:rounded-3xl shadow-soft p-5 sm:p-8 text-center mb-4 sm:mb-6">
-          {/* Trophy icon */}
-          <motion.div
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ delay: 0.2, type: 'spring', stiffness: 200 }}
-            className="mb-4 sm:mb-6"
+        <div className="triviz-panel p-5 sm:p-8 text-center mb-4 sm:mb-6 relative">
+          <button
+            onClick={onHome}
+            className="absolute right-4 top-4 text-[#343434] hover:opacity-70"
+            aria-label={t.backToMenu}
           >
-            <div className="w-16 h-16 sm:w-24 sm:h-24 mx-auto rounded-full bg-gradient-to-br from-amber-100 to-amber-50 flex items-center justify-center">
-              <Trophy className="w-8 h-8 sm:w-12 sm:h-12 text-amber-500" />
+            <X className="w-6 h-6" />
+          </button>
+
+          {/* Title */}
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.15 }}
+            className="text-left"
+          >
+            <h2 className="text-2xl sm:text-3xl font-bold text-[#343434]">Quiz Summary</h2>
+          </motion.div>
+
+          {/* Medal */}
+          <motion.div
+            initial={{ scale: 0.9, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ delay: 0.25, type: "spring", stiffness: 160 }}
+            className="my-6 sm:my-8"
+          >
+            <div className="mx-auto h-24 w-24 sm:h-28 sm:w-28 rounded-full border-2 border-[#343434] bg-[#FFD34E] shadow-[0_4px_0_#343434] flex items-center justify-center">
+              <div className="h-12 w-12 rounded-full bg-[#343434] text-[#FFD34E] flex items-center justify-center font-bold text-xl">
+                ×
+              </div>
             </div>
           </motion.div>
 
@@ -169,31 +189,27 @@ export function ResultScreen({
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            <span className="text-3xl sm:text-4xl mb-2 block">{result.emoji}</span>
-            <h2 className={`text-2xl sm:text-3xl font-display font-bold mb-1 sm:mb-2 ${result.color}`}>
+            <h3 className="text-xl sm:text-2xl font-bold text-[#343434] mb-1">
               {result.label}
-            </h2>
-            <p className="text-sm sm:text-base text-slate-600">
+            </h3>
+            <p className="text-sm sm:text-base text-[#343434]">
               {t.trainingComplete} • {mode} {t.questions}
             </p>
           </motion.div>
 
           {/* Score */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
+            initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.4 }}
-            className="my-5 sm:my-8"
+            transition={{ delay: 0.35 }}
+            className="my-4 sm:my-6"
           >
-            <div className="text-4xl sm:text-6xl font-display font-bold gradient-text mb-1 sm:mb-2">
-              {score.toLocaleString()}
-            </div>
             {status === "authenticated" && rank ? (
-              <p className="text-slate-500 text-xs sm:text-sm">
-                {t.totalScore} • {t.rank} #{rank}
+              <p className="text-[#343434] text-sm sm:text-base font-semibold">
+                {t.rank} #{rank}
               </p>
             ) : (
-              <p className="text-slate-500 text-xs sm:text-sm">
+              <p className="text-[#343434] text-xs sm:text-sm">
                 {saveMessage || t.resultLoginToSave}
               </p>
             )}
@@ -204,40 +220,11 @@ export function ResultScreen({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
-            className="relative w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-5 sm:mb-8"
+            className="my-4 sm:my-6"
           >
-            <svg className="w-full h-full transform -rotate-90" viewBox="0 0 128 128">
-              <circle
-                cx="64"
-                cy="64"
-                r="56"
-                stroke="currentColor"
-                strokeWidth="8"
-                fill="none"
-                className="text-slate-100"
-              />
-              <motion.circle
-                cx="64"
-                cy="64"
-                r="56"
-                stroke="url(#gradient)"
-                strokeWidth="8"
-                fill="none"
-                strokeLinecap="round"
-                initial={{ strokeDasharray: '0 352' }}
-                animate={{ strokeDasharray: `${(percentage / 100) * 352} 352` }}
-                transition={{ delay: 0.6, duration: 1, ease: 'easeOut' }}
-              />
-              <defs>
-                <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#06B6D4" />
-                  <stop offset="100%" stopColor="#6366F1" />
-                </linearGradient>
-              </defs>
-            </svg>
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-xl sm:text-2xl font-bold text-slate-800">{percentage}%</span>
-            </div>
+            <p className="text-[#343434] text-sm sm:text-base">
+              {t.totalScore}: <span className="font-bold">{score.toLocaleString()}</span>
+            </p>
           </motion.div>
 
           {/* Stats grid */}
@@ -245,35 +232,21 @@ export function ResultScreen({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7 }}
-            className="grid grid-cols-2 gap-2 sm:gap-4"
+            className="grid grid-cols-2 gap-3 sm:gap-4"
           >
-            <div className="bg-emerald-50 rounded-xl sm:rounded-2xl p-3 sm:p-4">
-              <div className="flex items-center justify-center gap-1.5 sm:gap-2 mb-0.5 sm:mb-1">
-                <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-500" />
-                <span className="text-xl sm:text-2xl font-bold text-emerald-700">{correctAnswers}</span>
+            <div className="triviz-outline p-3 sm:p-4">
+              <div className="flex items-center justify-center gap-2 mb-1">
+                <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#343434]" />
+                <span className="text-xl sm:text-2xl font-bold text-[#343434]">{correctAnswers}</span>
               </div>
-              <p className="text-xs sm:text-sm text-emerald-600">{t.correctAnswers}</p>
+              <p className="text-xs sm:text-sm text-[#343434]">{t.correctAnswers}</p>
             </div>
-            <div className="bg-rose-50 rounded-xl sm:rounded-2xl p-3 sm:p-4">
-              <div className="flex items-center justify-center gap-1.5 sm:gap-2 mb-0.5 sm:mb-1">
-                <XCircle className="w-4 h-4 sm:w-5 sm:h-5 text-rose-500" />
-                <span className="text-xl sm:text-2xl font-bold text-rose-700">{incorrectAnswers}</span>
+            <div className="triviz-outline p-3 sm:p-4">
+              <div className="flex items-center justify-center gap-2 mb-1">
+                <XCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#343434]" />
+                <span className="text-xl sm:text-2xl font-bold text-[#343434]">{incorrectAnswers}</span>
               </div>
-              <p className="text-xs sm:text-sm text-rose-600">{t.incorrectAnswers}</p>
-            </div>
-            <div className="bg-amber-50 rounded-xl sm:rounded-2xl p-3 sm:p-4">
-              <div className="flex items-center justify-center gap-1.5 sm:gap-2 mb-0.5 sm:mb-1">
-                <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-amber-500" />
-                <span className="text-xl sm:text-2xl font-bold text-amber-700">{maxStreak}</span>
-              </div>
-              <p className="text-xs sm:text-sm text-amber-600">{t.bestStreak}</p>
-            </div>
-            <div className="bg-indigo-50 rounded-xl sm:rounded-2xl p-3 sm:p-4">
-              <div className="flex items-center justify-center gap-1.5 sm:gap-2 mb-0.5 sm:mb-1">
-                <Target className="w-4 h-4 sm:w-5 sm:h-5 text-indigo-500" />
-                <span className="text-xl sm:text-2xl font-bold text-indigo-700">{totalQuestions}</span>
-              </div>
-              <p className="text-xs sm:text-sm text-indigo-600">{t.totalQuestionsLabel}</p>
+              <p className="text-xs sm:text-sm text-[#343434]">{t.incorrectAnswers}</p>
             </div>
           </motion.div>
         </div>
@@ -283,12 +256,12 @@ export function ResultScreen({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9 }}
-          className="flex flex-col sm:flex-row gap-3 sm:gap-4"
+          className="flex items-center gap-3"
         >
           <Button
             onClick={onRestart}
             size="lg"
-            className="flex-1 py-4 sm:py-6 text-base sm:text-lg font-semibold rounded-xl sm:rounded-2xl gradient-bg hover:opacity-90 transition-all duration-200 shadow-lg hover:shadow-xl"
+            className="flex-1 py-4 sm:py-6 text-base sm:text-lg font-semibold triviz-button"
           >
             <RotateCcw className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
             {t.playAgain}
@@ -297,10 +270,9 @@ export function ResultScreen({
             onClick={onHome}
             size="lg"
             variant="outline"
-            className="flex-1 py-4 sm:py-6 text-base sm:text-lg font-semibold rounded-xl sm:rounded-2xl border-2 hover:bg-slate-50"
+            className="w-14 sm:w-16 py-4 sm:py-6 border-2 border-[#343434] shadow-[0_4px_0_#343434]"
           >
-            <Home className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
-            {t.backToMenu}
+            <Share2 className="w-5 h-5" />
           </Button>
         </motion.div>
 
@@ -309,7 +281,7 @@ export function ResultScreen({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
-          className="mt-4 sm:mt-6 text-center text-xs sm:text-sm text-slate-500 px-4"
+          className="mt-4 sm:mt-6 text-center text-xs sm:text-sm text-[#343434] px-4"
         >
           {percentage >= 80 
             ? t.resultMotivationHigh 

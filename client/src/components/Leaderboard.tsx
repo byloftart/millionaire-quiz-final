@@ -10,7 +10,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription } from '@/components/ui/dialog';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Trophy, Medal, Clock, Target, Flame, User, Trash2 } from 'lucide-react';
+import { Trophy, Medal, Clock, Target, Flame, User, Trash2, SlidersHorizontal } from 'lucide-react';
 import { useLeaderboard, GameResult } from '@/hooks/useLeaderboard';
 import { toast } from 'sonner';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -66,27 +66,24 @@ export function Leaderboard({ className }: LeaderboardProps) {
       initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ delay: index * 0.05 }}
-      className={`
-        flex items-center gap-2 sm:gap-3 p-2 sm:p-3 rounded-lg
-        ${index === 0 && showRank ? 'bg-gradient-to-r from-amber-50 to-amber-100/50 border border-amber-200' : 'bg-slate-50'}
-      `}
+      className="flex items-center gap-2 sm:gap-3 p-3 sm:p-4 rounded-2xl bg-white border-2 border-[#343434] shadow-[0_4px_0_#343434]"
     >
       {showRank && (
-        <div className="flex-shrink-0 w-6 sm:w-8">
-          {getRankIcon(index)}
+        <div className="flex-shrink-0 w-8 sm:w-10 h-8 sm:h-10 rounded-full bg-[#FFD34E] border-2 border-[#343434] flex items-center justify-center font-bold text-[#343434]">
+          {index + 1}
         </div>
       )}
       
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2">
-          <span className="font-medium text-slate-800 truncate text-sm sm:text-base">
+          <span className="font-semibold text-[#343434] truncate text-sm sm:text-base">
             {result.playerName}
           </span>
-            <span className="text-xs px-1.5 py-0.5 bg-slate-200 text-slate-600 rounded">
+            <span className="text-xs px-1.5 py-0.5 bg-white border-2 border-[#343434] rounded-full font-semibold">
               {result.mode}Q
             </span>
         </div>
-        <div className="flex items-center gap-2 sm:gap-3 text-xs text-slate-500 mt-0.5">
+        <div className="flex items-center gap-2 sm:gap-3 text-xs text-[#343434] mt-0.5">
           <span className="flex items-center gap-1">
             <Target className="w-3 h-3" />
             {result.percentage}%
@@ -100,8 +97,8 @@ export function Leaderboard({ className }: LeaderboardProps) {
       </div>
       
       <div className="text-right flex-shrink-0">
-        <div className="font-bold text-indigo-600 text-sm sm:text-base">{result.score.toLocaleString()}</div>
-        <div className="text-xs text-slate-500">
+        <div className="font-bold text-[#343434] text-sm sm:text-base">{result.score.toLocaleString()}</div>
+        <div className="text-xs text-[#343434]">
           {result.correctAnswers}/{result.totalQuestions}
         </div>
       </div>
@@ -119,30 +116,30 @@ export function Leaderboard({ className }: LeaderboardProps) {
           <Trophy className="w-4 h-4" />
           <span className="hidden sm:inline">{t.leaderboard}</span>
           {leaderboard.length > 0 && (
-            <span className="ml-1 px-1.5 py-0.5 text-xs bg-amber-100 text-amber-700 rounded-full">
+            <span className="ml-1 px-1.5 py-0.5 text-xs bg-[#FFD34E] text-[#343434] rounded-full border-2 border-[#343434]">
               {leaderboard.length}
             </span>
           )}
         </Button>
       </DialogTrigger>
       
-      <DialogContent className="sm:max-w-lg max-w-[95vw] max-h-[85vh] overflow-hidden flex flex-col mx-auto">
+      <DialogContent className="sm:max-w-lg max-w-[95vw] max-h-[85vh] overflow-hidden flex flex-col mx-auto triviz-page border-0">
         <DialogHeader className="flex-shrink-0">
-          <DialogTitle className="flex items-center gap-2 text-lg sm:text-xl">
-            <Trophy className="w-5 h-5 text-amber-500" />
+          <DialogTitle className="flex items-center justify-between text-lg sm:text-2xl font-bold text-[#343434]">
             {t.leaderboardTitle}
+            <SlidersHorizontal className="w-5 h-5" />
           </DialogTitle>
-          <DialogDescription className="text-sm">
+          <DialogDescription className="text-sm text-[#343434]">
             {t.leaderboardDescription}
           </DialogDescription>
         </DialogHeader>
 
         {/* Player name */}
-        <div className="flex items-center gap-2 p-2 sm:p-3 bg-slate-50 rounded-lg flex-shrink-0">
-          <User className="w-4 h-4 text-slate-500 flex-shrink-0" />
+        <div className="flex items-center gap-2 p-2 sm:p-3 bg-white rounded-2xl border-2 border-[#343434] shadow-[0_4px_0_#343434] flex-shrink-0">
+          <User className="w-4 h-4 text-[#343434] flex-shrink-0" />
           {status === "authenticated" ? (
             <>
-              <span className="flex-1 text-sm font-medium truncate">
+              <span className="flex-1 text-sm font-semibold truncate text-[#343434]">
                 {user?.name || t.authGuest}
               </span>
             </>
@@ -152,18 +149,18 @@ export function Leaderboard({ className }: LeaderboardProps) {
                 type="text"
                 value={nameInput}
                 onChange={(e) => setNameInput(e.target.value)}
-                className="flex-1 px-2 py-1 text-sm border rounded focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="flex-1 px-2 py-1 text-sm border-2 border-[#343434] rounded-xl focus:outline-none"
                 placeholder={t.leaderboardNamePlaceholder}
                 maxLength={20}
                 autoFocus
               />
-              <Button size="sm" onClick={handleSaveName}>
+              <Button size="sm" onClick={handleSaveName} className="triviz-button">
                 {t.leaderboardSaveName}
               </Button>
             </div>
           ) : (
             <>
-              <span className="flex-1 text-sm font-medium truncate">{playerName || t.authGuest}</span>
+              <span className="flex-1 text-sm font-semibold truncate text-[#343434]">{playerName || t.authGuest}</span>
               <Button 
                 variant="ghost" 
                 size="sm" 
@@ -171,7 +168,7 @@ export function Leaderboard({ className }: LeaderboardProps) {
                   setNameInput(playerName);
                   setEditingName(true);
                 }}
-                className="text-xs"
+                className="text-xs underline underline-offset-4 text-[#343434]"
               >
                 {t.leaderboardChangeName}
               </Button>
@@ -180,20 +177,20 @@ export function Leaderboard({ className }: LeaderboardProps) {
         </div>
 
         <Tabs defaultValue="top" className="flex-1 flex flex-col min-h-0">
-          <TabsList className="grid w-full grid-cols-2 flex-shrink-0">
-            <TabsTrigger value="top" className="text-sm">{t.leaderboardTop}</TabsTrigger>
-            <TabsTrigger value="history" className="text-sm">{t.leaderboardHistory}</TabsTrigger>
+          <TabsList className="grid w-full grid-cols-2 flex-shrink-0 bg-white border-2 border-[#343434] rounded-full shadow-[0_4px_0_#343434]">
+            <TabsTrigger value="top" className="text-sm font-semibold data-[state=active]:bg-[#609DED] data-[state=active]:text-white rounded-full">{t.leaderboardTop}</TabsTrigger>
+            <TabsTrigger value="history" className="text-sm font-semibold data-[state=active]:bg-[#609DED] data-[state=active]:text-white rounded-full">{t.leaderboardHistory}</TabsTrigger>
           </TabsList>
           
           <TabsContent value="top" className="flex-1 overflow-auto mt-2">
             {topResults.length === 0 ? (
-              <div className="text-center py-8 text-slate-500">
+              <div className="text-center py-8 text-[#343434]">
                 <Trophy className="w-12 h-12 mx-auto mb-3 opacity-30" />
                 <p className="text-sm">{t.noResults}</p>
                 <p className="text-xs mt-1">{t.leaderboardPlayToRank}</p>
               </div>
             ) : (
-              <div className="space-y-2">
+              <div className="space-y-3">
                 {topResults.map((result, index) => (
                   <ResultRow key={result.id} result={result} index={index} />
                 ))}
@@ -203,13 +200,13 @@ export function Leaderboard({ className }: LeaderboardProps) {
           
           <TabsContent value="history" className="flex-1 overflow-auto mt-2">
             {playerHistory.length === 0 ? (
-              <div className="text-center py-8 text-slate-500">
+              <div className="text-center py-8 text-[#343434]">
                 <Clock className="w-12 h-12 mx-auto mb-3 opacity-30" />
                 <p className="text-sm">{t.leaderboardHistoryEmpty}</p>
                 <p className="text-xs mt-1">{t.leaderboardHistoryHint}</p>
               </div>
             ) : (
-              <div className="space-y-2">
+              <div className="space-y-3">
                 {playerHistory.map((result, index) => (
                   <ResultRow key={result.id} result={result} index={index} showRank={false} />
                 ))}
@@ -219,12 +216,12 @@ export function Leaderboard({ className }: LeaderboardProps) {
         </Tabs>
 
         {status !== "authenticated" && playerHistory.length > 0 && (
-          <div className="pt-3 border-t flex-shrink-0">
+          <div className="pt-3 flex-shrink-0">
             <Button
               variant="ghost"
               size="sm"
               onClick={handleClearLeaderboard}
-              className="w-full text-rose-600 hover:text-rose-700 hover:bg-rose-50"
+              className="w-full text-rose-600 hover:text-rose-700 hover:bg-rose-50 border-2 border-[#343434] rounded-full"
             >
               <Trash2 className="w-4 h-4 mr-2" />
               {t.clearHistory}
