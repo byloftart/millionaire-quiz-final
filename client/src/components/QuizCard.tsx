@@ -55,10 +55,10 @@ export function QuizCard({
       {/* Header with timer and progress */}
       <div className="flex flex-wrap items-center justify-between gap-2 mb-4 sm:mb-6">
         <div className="flex items-center gap-2 sm:gap-3">
-          <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-white rounded-full shadow-soft text-xs sm:text-sm font-semibold text-slate-700">
+          <span className="px-3 sm:px-4 py-1.5 sm:py-2 triviz-pill text-xs sm:text-sm font-semibold">
             {questionNumber} / {totalQuestions}
           </span>
-          <span className="px-2 sm:px-3 py-1 sm:py-1.5 bg-gradient-to-r from-cyan-50 to-indigo-50 rounded-full text-[10px] sm:text-xs font-medium text-indigo-600 border border-indigo-100 truncate max-w-[100px] sm:max-w-none">
+          <span className="px-2 sm:px-3 py-1 sm:py-1.5 bg-white rounded-full text-[10px] sm:text-xs font-semibold border-2 border-[#343434] shadow-[0_4px_0_#343434] truncate max-w-[100px] sm:max-w-none">
             {question.category}
           </span>
         </div>
@@ -68,20 +68,20 @@ export function QuizCard({
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
-            className="flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-1 sm:py-1.5 bg-amber-50 rounded-full border border-amber-200"
-          >
-            <Zap className="w-3 h-3 sm:w-4 sm:h-4 text-amber-500 fill-amber-500" />
-            <span className="text-xs sm:text-sm font-semibold text-amber-700">{streak}x</span>
-          </motion.div>
-        )}
+          className="flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-1 sm:py-1.5 bg-[#FFD34E] rounded-full border-2 border-[#343434] shadow-[0_4px_0_#343434]"
+        >
+          <Zap className="w-3 h-3 sm:w-4 sm:h-4 text-[#343434] fill-[#343434]" />
+          <span className="text-xs sm:text-sm font-semibold text-[#343434]">{streak}x</span>
+        </motion.div>
+      )}
       </div>
 
       {/* Timer bar */}
-      <div className="relative h-1.5 sm:h-2 bg-slate-100 rounded-full mb-4 sm:mb-6 overflow-hidden">
+      <div className="relative h-2 sm:h-2.5 bg-white rounded-full mb-4 sm:mb-6 overflow-hidden border-2 border-[#343434]">
         <motion.div
           className={cn(
             "absolute inset-y-0 left-0 rounded-full transition-colors duration-300",
-            isTimeCritical ? "bg-rose-500" : isTimeWarning ? "bg-amber-500" : "gradient-bg"
+            isTimeCritical ? "bg-rose-400" : isTimeWarning ? "bg-amber-400" : "bg-[#609DED]"
           )}
           initial={{ width: '100%' }}
           animate={{ width: `${timePercentage}%` }}
@@ -92,12 +92,12 @@ export function QuizCard({
       {/* Timer display */}
       <div className="flex justify-center mb-4 sm:mb-6">
         <div className={cn(
-          "flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl sm:rounded-2xl transition-all duration-300",
+          "flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 triviz-pill transition-all duration-300",
           isTimeCritical 
             ? "bg-rose-50 text-rose-600 timer-warning" 
             : isTimeWarning 
               ? "bg-amber-50 text-amber-600" 
-              : "bg-slate-50 text-slate-600"
+              : "bg-white text-[#343434]"
         )}>
           <Clock className="w-4 h-4 sm:w-5 sm:h-5" />
           <span className="text-xl sm:text-2xl font-bold font-display tabular-nums">
@@ -108,8 +108,8 @@ export function QuizCard({
       </div>
 
       {/* Question card */}
-      <div className="bg-white rounded-2xl sm:rounded-3xl shadow-soft p-4 sm:p-6 md:p-8 mb-4 sm:mb-6">
-        <h2 className="text-base sm:text-xl md:text-2xl font-semibold text-slate-800 text-center leading-relaxed">
+      <div className="triviz-panel p-4 sm:p-6 md:p-8 mb-4 sm:mb-6">
+        <h2 className="text-base sm:text-xl md:text-2xl font-semibold text-[#343434] text-center leading-relaxed">
           {question.question}
         </h2>
       </div>
@@ -133,23 +133,23 @@ export function QuizCard({
                 onClick={() => !isAnswerRevealed && onSelectAnswer(index)}
                 disabled={isAnswerRevealed}
                 className={cn(
-                  "relative flex items-center gap-3 sm:gap-4 p-3 sm:p-4 md:p-5 rounded-xl sm:rounded-2xl border-2 text-left transition-all duration-200",
+                  "relative flex items-center gap-3 sm:gap-4 p-3 sm:p-4 md:p-5 rounded-xl sm:rounded-2xl border-2 text-left transition-all duration-200 shadow-[0_4px_0_#343434]",
                   "active:scale-[0.98]",
-                  "sm:hover:shadow-lg sm:hover:scale-[1.02]",
-                  !isAnswerRevealed && "bg-white border-slate-200 sm:hover:border-indigo-300",
-                  isSelected && !isAnswerRevealed && "border-indigo-500 bg-indigo-50",
-                  showCorrect && "bg-emerald-50 border-emerald-400",
-                  showIncorrect && "bg-rose-50 border-rose-400",
+                  "sm:hover:scale-[1.02]",
+                  !isAnswerRevealed && "bg-white border-[#343434]",
+                  isSelected && !isAnswerRevealed && "bg-[#EAF2FF] border-[#343434]",
+                  showCorrect && "bg-[#C6F7BE] border-[#343434]",
+                  showIncorrect && "bg-[#FFD4C8] border-[#343434]",
                   isAnswerRevealed && !showCorrect && !showIncorrect && "opacity-60"
                 )}
               >
                 {/* Answer label */}
                 <div className={cn(
                   "flex-shrink-0 w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl flex items-center justify-center font-bold text-sm sm:text-lg transition-colors",
-                  !isAnswerRevealed && "bg-slate-100 text-slate-600",
-                  isSelected && !isAnswerRevealed && "bg-indigo-500 text-white",
-                  showCorrect && "bg-emerald-500 text-white",
-                  showIncorrect && "bg-rose-500 text-white"
+                  !isAnswerRevealed && "bg-white text-[#343434] border-2 border-[#343434]",
+                  isSelected && !isAnswerRevealed && "bg-[#609DED] text-white border-2 border-[#343434]",
+                  showCorrect && "bg-[#6AD56A] text-white border-2 border-[#343434]",
+                  showIncorrect && "bg-[#F05A5A] text-white border-2 border-[#343434]"
                 )}>
                   {showCorrect ? (
                     <CheckCircle2 className="w-4 h-4 sm:w-6 sm:h-6" />
@@ -163,9 +163,9 @@ export function QuizCard({
                 {/* Answer text */}
                 <span className={cn(
                   "flex-1 font-medium text-sm sm:text-base transition-colors leading-snug",
-                  !isAnswerRevealed && "text-slate-700",
-                  showCorrect && "text-emerald-800",
-                  showIncorrect && "text-rose-800"
+                  !isAnswerRevealed && "text-[#343434]",
+                  showCorrect && "text-[#1D532B]",
+                  showIncorrect && "text-[#7A1E1E]"
                 )}>
                   {option}
                 </span>

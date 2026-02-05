@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
 @custom-variant dark (&:is(.dark *));
 
@@ -115,6 +116,7 @@
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
+    font-family: "Poppins", "Inter", system-ui, -apple-system, sans-serif;
   }
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
@@ -181,6 +183,44 @@
   /* Soft shadow */
   .shadow-soft {
     box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.08), 0 2px 8px -2px rgba(0, 0, 0, 0.04);
+  }
+
+  .font-display {
+    font-family: "Poppins", "Inter", system-ui, -apple-system, sans-serif;
+  }
+
+  .triviz-page {
+    background: #fff8ee;
+    color: #343434;
+  }
+
+  .triviz-panel {
+    background: #ffffff;
+    border: 2px solid #343434;
+    box-shadow: 0 4px 0 #343434;
+    border-radius: 20px;
+  }
+
+  .triviz-pill {
+    background: #ffffff;
+    border: 2px solid #343434;
+    box-shadow: 0 4px 0 #343434;
+    border-radius: 999px;
+  }
+
+  .triviz-button {
+    background: #609ded;
+    border: 2px solid #343434;
+    box-shadow: 0 4px 0 #343434;
+    border-radius: 999px;
+    color: #ffffff;
+  }
+
+  .triviz-outline {
+    background: #ffffff;
+    border: 2px solid #343434;
+    box-shadow: 0 4px 0 #343434;
+    border-radius: 16px;
   }
   
   /* Answer option styles */

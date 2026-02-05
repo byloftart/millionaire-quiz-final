@@ -11,7 +11,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { Brain, Clock, Target, Trophy, Sparkles, Play } from 'lucide-react';
+import { Clock, Target, Trophy, Sparkles, Play } from 'lucide-react';
 import { QuizMode } from '@/hooks/useQuiz';
 import { Leaderboard } from './Leaderboard';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -27,16 +27,17 @@ export function StartScreen({ onStart }: StartScreenProps) {
   const [selectedMode, setSelectedMode] = useState<QuizMode>('50');
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-4 py-6 sm:p-6 relative overflow-hidden">
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 py-6 sm:p-6 relative overflow-hidden triviz-page">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 left-0 w-64 sm:w-96 h-64 sm:h-96 bg-gradient-to-br from-cyan-100/50 to-transparent rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
-        <div className="absolute bottom-0 right-0 w-64 sm:w-96 h-64 sm:h-96 bg-gradient-to-tl from-indigo-100/50 to-transparent rounded-full blur-3xl translate-x-1/2 translate-y-1/2" />
+        <div className="absolute -top-16 -left-12 h-40 w-40 rounded-full bg-[#FFE9C2]" />
+        <div className="absolute top-16 right-6 h-10 w-10 rounded-full bg-[#FFE9C2]" />
+        <div className="absolute bottom-16 right-10 h-24 w-24 rounded-full bg-[#FFE9C2]" />
       </div>
 
       {/* Header with actions */}
       <div className="absolute top-4 right-4 flex gap-2 z-20">
-        <AuthButton />
+        <AuthButton className="triviz-pill" />
         <LanguageSwitcher />
         <Leaderboard />
       </div>
@@ -55,14 +56,9 @@ export function StartScreen({ onStart }: StartScreenProps) {
           className="mb-6 sm:mb-8 flex justify-center"
         >
           <div className="relative">
-            <div className="w-20 h-20 sm:w-28 sm:h-28 rounded-2xl sm:rounded-3xl gradient-bg flex items-center justify-center shadow-lg">
-              <Brain className="w-10 h-10 sm:w-14 sm:h-14 text-white" />
+            <div className="w-20 h-20 sm:w-28 sm:h-28 rounded-[24px] sm:rounded-[30px] bg-[#FFD34E] border-2 border-[#343434] shadow-[0_6px_0_#343434] flex items-center justify-center">
+              <span className="text-4xl sm:text-5xl font-bold text-[#343434]">?</span>
             </div>
-            <motion.div
-              animate={{ rotate: 360 }}
-              transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
-              className="absolute -inset-2 border-2 border-dashed border-indigo-200 rounded-[1.5rem] sm:rounded-[2rem]"
-            />
           </div>
         </motion.div>
 
@@ -73,7 +69,7 @@ export function StartScreen({ onStart }: StartScreenProps) {
           transition={{ delay: 0.3, duration: 0.5 }}
           className="text-2xl sm:text-4xl md:text-5xl font-display font-bold mb-3 sm:mb-4 px-2"
         >
-          <span className="gradient-text">{t.appTitle}</span>
+          <span className="text-[#343434]">{t.appTitle}</span>
         </motion.h1>
 
         {/* Subtitle */}
@@ -81,7 +77,7 @@ export function StartScreen({ onStart }: StartScreenProps) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.5 }}
-          className="text-xs sm:text-sm text-slate-600 mb-6 sm:mb-8 max-w-md mx-auto px-4"
+          className="text-xs sm:text-sm text-[#343434] mb-6 sm:mb-8 max-w-md mx-auto px-4"
         >
           {t.appSubtitle}
         </motion.p>
@@ -93,15 +89,15 @@ export function StartScreen({ onStart }: StartScreenProps) {
           transition={{ delay: 0.45, duration: 0.5 }}
           className="mb-6 sm:mb-8"
         >
-          <p className="text-sm text-slate-500 mb-3">{t.selectMode}:</p>
+          <p className="text-sm text-[#343434] mb-3">{t.selectMode}:</p>
           <div className="flex justify-center gap-3">
             <button
               onClick={() => setSelectedMode('25')}
               className={`
-                px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-medium text-sm sm:text-base transition-all duration-200
+                px-4 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold text-sm sm:text-base transition-all duration-200 border-2 border-[#343434] shadow-[0_4px_0_#343434]
                 ${selectedMode === '25' 
-                  ? 'bg-indigo-600 text-white shadow-lg scale-105' 
-                  : 'bg-white text-slate-600 border-2 border-slate-200 hover:border-indigo-300'
+                  ? 'bg-[#FFD34E] text-[#343434] scale-105' 
+                  : 'bg-white text-[#343434]'
                 }
               `}
             >
@@ -110,10 +106,10 @@ export function StartScreen({ onStart }: StartScreenProps) {
             <button
               onClick={() => setSelectedMode('50')}
               className={`
-                px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-medium text-sm sm:text-base transition-all duration-200
+                px-4 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold text-sm sm:text-base transition-all duration-200 border-2 border-[#343434] shadow-[0_4px_0_#343434]
                 ${selectedMode === '50' 
-                  ? 'bg-indigo-600 text-white shadow-lg scale-105' 
-                  : 'bg-white text-slate-600 border-2 border-slate-200 hover:border-indigo-300'
+                  ? 'bg-[#FFD34E] text-[#343434] scale-105' 
+                  : 'bg-white text-[#343434]'
                 }
               `}
             >
@@ -131,7 +127,7 @@ export function StartScreen({ onStart }: StartScreenProps) {
         >
           {[
             { icon: Target, label: `${selectedMode} ${t.questions}`, color: 'text-cyan-600 bg-cyan-50' },
-            { icon: Clock, label: `20 ${t.secPerQuestion}`, color: 'text-indigo-600 bg-indigo-50' },
+            { icon: Clock, label: `10 ${t.secPerQuestion}`, color: 'text-indigo-600 bg-indigo-50' },
             { icon: Trophy, label: t.pointsForSpeed, color: 'text-amber-600 bg-amber-50' },
             { icon: Sparkles, label: t.answerStreaks, color: 'text-emerald-600 bg-emerald-50' },
           ].map((feature, index) => (
@@ -140,12 +136,12 @@ export function StartScreen({ onStart }: StartScreenProps) {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.6 + index * 0.1, duration: 0.3 }}
-              className="bg-white rounded-xl sm:rounded-2xl p-3 sm:p-4 shadow-soft"
+              className="triviz-panel p-3 sm:p-4"
             >
-              <div className={`w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl ${feature.color} flex items-center justify-center mx-auto mb-1.5 sm:mb-2`}>
+              <div className={`w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl ${feature.color} flex items-center justify-center mx-auto mb-1.5 sm:mb-2 border-2 border-[#343434]`}>
                 <feature.icon className="w-4 h-4 sm:w-5 sm:h-5" />
               </div>
-              <span className="text-xs sm:text-sm font-medium text-slate-700">{feature.label}</span>
+              <span className="text-xs sm:text-sm font-semibold text-[#343434]">{feature.label}</span>
             </motion.div>
           ))}
         </motion.div>
@@ -159,7 +155,7 @@ export function StartScreen({ onStart }: StartScreenProps) {
           <Button
             onClick={() => onStart(selectedMode)}
             size="lg"
-            className="w-full sm:w-auto px-8 sm:px-12 py-5 sm:py-6 text-base sm:text-lg font-semibold rounded-xl sm:rounded-2xl gradient-bg hover:opacity-90 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95"
+            className="w-full sm:w-auto px-8 sm:px-12 py-5 sm:py-6 text-base sm:text-lg font-semibold triviz-button hover:opacity-90 transition-all duration-200 hover:scale-105 active:scale-95"
           >
             <Play className="w-5 h-5 mr-2" />
             {t.startTraining}
@@ -173,7 +169,7 @@ export function StartScreen({ onStart }: StartScreenProps) {
           transition={{ delay: 1, duration: 0.5 }}
           className="mt-6 sm:mt-8 space-y-2"
         >
-          <p className="text-xs sm:text-sm text-slate-500 px-4">
+          <p className="text-xs sm:text-sm text-[#343434] px-4">
             {t.questionsInfo}
           </p>
         </motion.div>

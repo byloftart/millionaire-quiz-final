@@ -83,28 +83,27 @@ export default function Home() {
 
   // Quiz screen
   return (
-    <div className="min-h-screen flex flex-col relative">
+    <div className="min-h-screen flex flex-col relative triviz-page">
       {/* Background decoration */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 left-0 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-gradient-to-br from-cyan-100/40 to-transparent rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
-        <div className="absolute bottom-0 right-0 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-gradient-to-tl from-indigo-100/40 to-transparent rounded-full blur-3xl translate-x-1/2 translate-y-1/2" />
-        <div className="absolute top-1/2 left-1/2 w-[400px] sm:w-[600px] h-[400px] sm:h-[600px] bg-gradient-to-r from-cyan-50/30 to-indigo-50/30 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
+        <div className="absolute -top-16 -left-12 h-40 w-40 rounded-full bg-[#FFE9C2]" />
+        <div className="absolute bottom-10 right-8 h-28 w-28 rounded-full bg-[#FFE9C2]" />
       </div>
 
       {/* Header */}
-      <header className="sticky top-0 z-40 bg-white/80 backdrop-blur-lg border-b border-slate-100">
+      <header className="sticky top-0 z-40 bg-[#FFF8EE] border-b-0">
         <div className="container py-3 sm:py-4">
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center gap-2 sm:gap-3">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg sm:rounded-xl gradient-bg flex items-center justify-center">
-                <Brain className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
+              <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-[#FFD34E] border-2 border-[#343434] shadow-[0_4px_0_#343434] flex items-center justify-center">
+                <Brain className="w-4 h-4 sm:w-5 sm:h-5 text-[#343434]" />
               </div>
               <div className="hidden sm:block">
-                <h1 className="font-display font-bold text-slate-800 leading-tight text-sm sm:text-base">
+                <h1 className="font-display font-bold text-[#343434] leading-tight text-sm sm:text-base">
                   {t.appShortTitle}
                 </h1>
-                <p className="text-[10px] sm:text-xs text-slate-500">{t.appTitle}</p>
+                <p className="text-[10px] sm:text-xs text-[#343434]">{t.appTitle}</p>
               </div>
             </div>
 
@@ -114,19 +113,18 @@ export default function Home() {
                 onClick={handleHome}
                 variant="outline"
                 size="sm"
-                className="hidden sm:inline-flex gap-2"
+                className="hidden sm:inline-flex gap-2 triviz-pill"
               >
                 <HomeIcon className="w-4 h-4" />
                 {t.backToMenu}
               </Button>
-              <div className="text-right">
-                <p className="text-[10px] sm:text-xs text-slate-500">{t.score}</p>
-                <p className="text-base sm:text-lg font-bold gradient-text">{score.toLocaleString()}</p>
+              <div className="text-right triviz-pill px-3 py-1.5">
+                <p className="text-[10px] sm:text-xs text-[#343434]">{t.score}</p>
+                <p className="text-base sm:text-lg font-bold text-[#343434]">{score.toLocaleString()}</p>
               </div>
-              <div className="h-8 sm:h-10 w-px bg-slate-200" />
-              <div className="text-right">
-                <p className="text-[10px] sm:text-xs text-slate-500">{t.correctAnswers}</p>
-                <p className="text-base sm:text-lg font-bold text-emerald-600">{correctAnswers}/{currentQuestionIndex + (isAnswerRevealed ? 1 : 0)}</p>
+              <div className="text-right triviz-pill px-3 py-1.5">
+                <p className="text-[10px] sm:text-xs text-[#343434]">{t.correctAnswers}</p>
+                <p className="text-base sm:text-lg font-bold text-[#343434]">{correctAnswers}/{currentQuestionIndex + (isAnswerRevealed ? 1 : 0)}</p>
               </div>
             </div>
           </div>
@@ -135,7 +133,7 @@ export default function Home() {
               onClick={handleHome}
               variant="outline"
               size="sm"
-              className="w-full gap-2"
+              className="w-full gap-2 triviz-pill"
             >
               <HomeIcon className="w-4 h-4" />
               {t.backToMenu}
@@ -144,7 +142,7 @@ export default function Home() {
 
           {/* Progress bar */}
           <div className="mt-2 sm:mt-3">
-            <Progress value={progress} className="h-1.5 sm:h-2" />
+            <Progress value={progress} className="h-2 sm:h-2.5 border-2 border-[#343434] bg-white" />
           </div>
         </div>
       </header>
@@ -181,7 +179,7 @@ export default function Home() {
               <Button
                 onClick={nextQuestion}
                 size="lg"
-                className="w-full sm:w-auto px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg font-semibold rounded-xl sm:rounded-2xl gradient-bg hover:opacity-90 transition-all duration-200 shadow-lg hover:shadow-xl sm:hover:scale-105 active:scale-95"
+                className="w-full sm:w-auto px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg font-semibold bg-transparent text-[#609DED] hover:text-[#4B86D6] transition-all duration-200 underline underline-offset-8"
               >
                 {currentQuestionIndex < totalQuestions - 1 ? (
                   <>
