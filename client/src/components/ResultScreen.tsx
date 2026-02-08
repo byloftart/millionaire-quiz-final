@@ -10,7 +10,7 @@
 
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { Trophy, Target, Zap, RotateCcw, CheckCircle2, XCircle, Home, X, Share2 } from 'lucide-react';
+import { RotateCcw, CheckCircle2, XCircle, X, Share2 } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { QuizMode } from '@/hooks/useQuiz';
 import { useLeaderboard } from '@/hooks/useLeaderboard';
@@ -18,6 +18,7 @@ import { Leaderboard } from './Leaderboard';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useAuth } from '@/contexts/AuthContext';
 import { AuthButton } from './AuthButton';
+import { BrandFooter } from './BrandFooter';
 
 interface ResultScreenProps {
   score: number;
@@ -101,12 +102,6 @@ export function ResultScreen({
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-4 py-6 sm:p-6 relative overflow-hidden triviz-page">
-      {/* Background decoration */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-16 -left-12 h-40 w-40 rounded-full bg-[#FFE9C2]" />
-        <div className="absolute bottom-20 right-10 h-24 w-24 rounded-full bg-[#FFE9C2]" />
-      </div>
-
       {/* Leaderboard button */}
       <div className="absolute top-4 right-4 z-20 flex gap-2">
         <AuthButton className="triviz-pill" />
@@ -192,7 +187,7 @@ export function ResultScreen({
             <h3 className="text-xl sm:text-2xl font-bold text-[#343434] mb-1">
               {result.label}
             </h3>
-            <p className="text-sm sm:text-base text-[#343434]">
+            <p className="text-base sm:text-lg text-[#343434]">
               {t.trainingComplete} • {mode} {t.questions}
             </p>
           </motion.div>
@@ -205,11 +200,11 @@ export function ResultScreen({
             className="my-4 sm:my-6"
           >
             {status === "authenticated" && rank ? (
-              <p className="text-[#343434] text-sm sm:text-base font-semibold">
+              <p className="text-[#343434] text-base sm:text-lg font-semibold">
                 {t.rank} #{rank}
               </p>
             ) : (
-              <p className="text-[#343434] text-xs sm:text-sm">
+              <p className="text-[#343434] text-sm sm:text-base">
                 {saveMessage || t.resultLoginToSave}
               </p>
             )}
@@ -222,7 +217,7 @@ export function ResultScreen({
             transition={{ delay: 0.5 }}
             className="my-4 sm:my-6"
           >
-            <p className="text-[#343434] text-sm sm:text-base">
+            <p className="text-[#343434] text-base sm:text-lg">
               {t.totalScore}: <span className="font-bold">{score.toLocaleString()}</span>
             </p>
           </motion.div>
@@ -239,14 +234,14 @@ export function ResultScreen({
                 <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-[#343434]" />
                 <span className="text-xl sm:text-2xl font-bold text-[#343434]">{correctAnswers}</span>
               </div>
-              <p className="text-xs sm:text-sm text-[#343434]">{t.correctAnswers}</p>
+              <p className="text-sm sm:text-base text-[#343434]">{t.correctAnswers}</p>
             </div>
             <div className="triviz-outline p-3 sm:p-4">
               <div className="flex items-center justify-center gap-2 mb-1">
                 <XCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#343434]" />
                 <span className="text-xl sm:text-2xl font-bold text-[#343434]">{incorrectAnswers}</span>
               </div>
-              <p className="text-xs sm:text-sm text-[#343434]">{t.incorrectAnswers}</p>
+              <p className="text-sm sm:text-base text-[#343434]">{t.incorrectAnswers}</p>
             </div>
           </motion.div>
         </div>
@@ -281,7 +276,7 @@ export function ResultScreen({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
-          className="mt-4 sm:mt-6 text-center text-xs sm:text-sm text-[#343434] px-4"
+          className="mt-4 sm:mt-6 text-center text-sm sm:text-base text-[#343434] px-4"
         >
           {percentage >= 80 
             ? t.resultMotivationHigh 
@@ -290,6 +285,8 @@ export function ResultScreen({
               : t.resultMotivationLow}
         </motion.p>
       </motion.div>
+
+      <BrandFooter className="mt-6" />
     </div>
   );
 }

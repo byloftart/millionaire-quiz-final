@@ -23,6 +23,12 @@ export interface Translations {
   questionsInfo: string;
   totalInDatabase: string;
   custom: string;
+  lifelines: string;
+  hintFiftyFifty: string;
+  hintSwapQuestion: string;
+  hintSecondChance: string;
+  hintSecondChanceArmed: string;
+  hintSecondChanceUsed: string;
   
   // Игровой экран
   question: string;
@@ -172,6 +178,12 @@ export const translations: Record<Language, Translations> = {
     questionsInfo: "Вопросы охватывают историю, географию, науку, искусство, литературу и другие темы",
     totalInDatabase: "Всего в базе",
     custom: "пользовательских",
+    lifelines: "Подсказки",
+    hintFiftyFifty: "50 на 50",
+    hintSwapQuestion: "Заменить вопрос",
+    hintSecondChance: "Право на ошибку",
+    hintSecondChanceArmed: "Право на ошибку активно",
+    hintSecondChanceUsed: "Право на ошибку использовано",
     
     question: "Вопрос",
     of: "из",
@@ -311,6 +323,12 @@ export const translations: Record<Language, Translations> = {
     questionsInfo: "Suallar tarixi, coğrafiyanı, elmi, incəsənəti, ədəbiyyatı və digər mövzuları əhatə edir",
     totalInDatabase: "Bazada cəmi",
     custom: "istifadəçi",
+    lifelines: "İpucu",
+    hintFiftyFifty: "50/50",
+    hintSwapQuestion: "Sualı dəyiş",
+    hintSecondChance: "Səhv haqqı",
+    hintSecondChanceArmed: "Səhv haqqı aktivdir",
+    hintSecondChanceUsed: "Səhv haqqı istifadə olunub",
     
     question: "Sual",
     of: "/",

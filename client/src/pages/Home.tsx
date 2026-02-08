@@ -18,6 +18,7 @@ import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { ArrowRight, Brain, Home as HomeIcon } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { BrandFooter } from '@/components/BrandFooter';
 
 export default function Home() {
   const { language, t } = useLanguage();
@@ -38,12 +39,21 @@ export default function Home() {
     incorrectAnswers,
     streak,
     maxStreak,
+    fiftyFiftyUsed,
+    swapQuestionUsed,
+    secondChanceUsed,
+    secondChanceArmed,
+    secondChanceFirstWrongAnswer,
+    hiddenAnswerIndexes,
     progress,
     mode,
     startQuiz,
     selectAnswer,
     nextQuestion,
     restartQuiz,
+    useFiftyFifty,
+    useSwapQuestion,
+    useSecondChance,
   } = useQuiz(customQuestions, language);
 
   const handleStart = (selectedMode: QuizMode) => {
@@ -84,12 +94,6 @@ export default function Home() {
   // Quiz screen
   return (
     <div className="min-h-screen flex flex-col relative triviz-page">
-      {/* Background decoration */}
-      <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-16 -left-12 h-40 w-40 rounded-full bg-[#FFE9C2]" />
-        <div className="absolute bottom-10 right-8 h-28 w-28 rounded-full bg-[#FFE9C2]" />
-      </div>
-
       {/* Header */}
       <header className="sticky top-0 z-40 bg-[#FFF8EE] border-b-0">
         <div className="container py-3 sm:py-4">
@@ -103,7 +107,7 @@ export default function Home() {
                 <h1 className="font-display font-bold text-[#343434] leading-tight text-sm sm:text-base">
                   {t.appShortTitle}
                 </h1>
-                <p className="text-[10px] sm:text-xs text-[#343434]">{t.appTitle}</p>
+                <p className="text-xs sm:text-sm text-[#343434]">{t.appTitle}</p>
               </div>
             </div>
 
@@ -118,13 +122,13 @@ export default function Home() {
                 <HomeIcon className="w-4 h-4" />
                 {t.backToMenu}
               </Button>
-              <div className="text-right triviz-pill px-3 py-1.5">
-                <p className="text-[10px] sm:text-xs text-[#343434]">{t.score}</p>
-                <p className="text-base sm:text-lg font-bold text-[#343434]">{score.toLocaleString()}</p>
+              <div className="text-right triviz-pill px-3 sm:px-4 py-2">
+                <p className="text-xs sm:text-sm text-[#343434]">{t.score}</p>
+                <p className="text-lg sm:text-xl font-bold text-[#343434] leading-tight">{score.toLocaleString()}</p>
               </div>
-              <div className="text-right triviz-pill px-3 py-1.5">
-                <p className="text-[10px] sm:text-xs text-[#343434]">{t.correctAnswers}</p>
-                <p className="text-base sm:text-lg font-bold text-[#343434]">{correctAnswers}/{currentQuestionIndex + (isAnswerRevealed ? 1 : 0)}</p>
+              <div className="text-right triviz-pill px-3 sm:px-4 py-2">
+                <p className="text-xs sm:text-sm text-[#343434]">{t.correctAnswers}</p>
+                <p className="text-lg sm:text-xl font-bold text-[#343434] leading-tight">{correctAnswers}/{currentQuestionIndex + (isAnswerRevealed ? 1 : 0)}</p>
               </div>
             </div>
           </div>
@@ -161,7 +165,16 @@ export default function Home() {
               timeRemaining={timeRemaining}
               questionTime={questionTime}
               streak={streak}
+              hiddenAnswerIndexes={hiddenAnswerIndexes}
+              secondChanceFirstWrongAnswer={secondChanceFirstWrongAnswer}
+              fiftyFiftyUsed={fiftyFiftyUsed}
+              swapQuestionUsed={swapQuestionUsed}
+              secondChanceUsed={secondChanceUsed}
+              secondChanceArmed={secondChanceArmed}
               onSelectAnswer={selectAnswer}
+              onUseFiftyFifty={useFiftyFifty}
+              onUseSwapQuestion={useSwapQuestion}
+              onUseSecondChance={useSecondChance}
             />
           )}
         </AnimatePresence>
@@ -196,10 +209,7 @@ export default function Home() {
       </main>
 
       {/* Footer hint */}
-      <footer className="py-3 sm:py-4 text-center text-xs sm:text-sm text-slate-400 relative z-10">
-        <p>{t.footerHint}</p>
-        <p className="text-[10px] sm:text-xs text-slate-400">Loft Art Studio</p>
-      </footer>
+      <BrandFooter hint={t.footerHint} className="py-4 sm:py-5" />
     </div>
   );
 }

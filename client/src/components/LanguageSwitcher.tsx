@@ -1,39 +1,42 @@
-import { useLanguage, Language } from '@/contexts/LanguageContext';
-import { Button } from '@/components/ui/button';
+import { useLanguage, Language } from "@/contexts/LanguageContext";
+import { cn } from "@/lib/utils";
+
+const languages: Array<{ code: Language; label: string; flag: string }> = [
+  { code: "ru", label: "RU", flag: "🇷🇺" },
+  { code: "az", label: "AZ", flag: "🇦🇿" },
+];
 
 export function LanguageSwitcher() {
   const { language, setLanguage } = useLanguage();
 
-  const toggleLanguage = () => {
-    const newLang: Language = language === 'ru' ? 'az' : 'ru';
-    setLanguage(newLang);
-  };
-
   return (
-    <Button
-      variant="outline"
-      size="sm"
-      onClick={toggleLanguage}
-      className="flex items-center gap-2 bg-white/90 hover:bg-white border-slate-200 shadow-sm hover:shadow-md transition-all"
+    <div
+      className="triviz-pill p-1 flex items-center gap-1"
+      role="group"
+      aria-label="Language switcher"
     >
-      <div className="flex h-3 w-5 overflow-hidden rounded-sm border border-slate-200">
-        {language === "ru" ? (
-          <>
-            <span className="flex-1 bg-white" />
-            <span className="flex-1 bg-blue-500" />
-            <span className="flex-1 bg-red-500" />
-          </>
-        ) : (
-          <>
-            <span className="flex-1 bg-sky-500" />
-            <span className="flex-1 bg-red-500" />
-            <span className="flex-1 bg-green-500" />
-          </>
-        )}
-      </div>
-      <span className="hidden sm:inline text-xs font-semibold">
-        {language === "ru" ? "AZ" : "RU"}
-      </span>
-    </Button>
+      {languages.map((item) => {
+        const isActive = language === item.code;
+        return (
+          <button
+            key={item.code}
+            type="button"
+            onClick={() => setLanguage(item.code)}
+            className={cn(
+              "min-w-[62px] h-8 px-2.5 rounded-full border-2 text-xs sm:text-sm font-semibold transition-all",
+              isActive
+                ? "bg-[#609DED] text-white border-[#343434] shadow-[0_2px_0_#343434]"
+                : "bg-white text-[#343434] border-transparent hover:border-[#343434]/40"
+            )}
+            aria-pressed={isActive}
+          >
+            <span className="mr-1" aria-hidden="true">
+              {item.flag}
+            </span>
+            {item.label}
+          </button>
+        );
+      })}
+    </div>
   );
 }
